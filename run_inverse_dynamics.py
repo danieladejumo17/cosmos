@@ -260,6 +260,7 @@ def run_inference() -> None:
         "-o", str(RUNS_DIR),
         "--checkpoint-path", CHECKPOINT,
         "--seed", "0",
+        "--no-guardrails",  # disable the Cosmos guardrail (avoids the gated Guardrail1 download + safety checks)
     ]
     print("running inference:\n  " + " ".join(cmd))
     subprocess.run(cmd, cwd=str(COSMOS3_REPO), env=env, check=True)

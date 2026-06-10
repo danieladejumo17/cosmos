@@ -16,7 +16,9 @@ Create a 'generate_videos.py' script to perform text to video generation as done
 - Make the script as simple as possible. (e.g. no need for creating unnecessary payloads and other overheads)
 
 
-// TODOs:
+TODOs:
 - The last segment/action should be at least 2s long
 - Starting speed is ~30mph
 - Decelerating to a full stop means speed has to drop to zero by the end of the last segment
+
+docker in docker, use cosmos framework
