@@ -1,0 +1,85 @@
+{
+  "subjects": [
+    {
+      "description": "A large flatbed truck ahead in the same lane, carrying multiple traffic signal poles loaded horizontally on its bed",
+      "appearance_details": "Heavy-duty flatbed with a weathered gray cab, mud flaps, and orange reflective tape on the rear bumper. The flatbed carries bundled steel poles with traffic signal heads attached and secured with ratchet straps. The signal heads are unpowered but their red, amber, and green glass lenses catch ambient light",
+      "relationship": "The lead vehicle whose inactive cargo the ego vehicle correctly ignores while maintaining a safe following distance",
+      "location": "Center midground, directly ahead in the same lane",
+      "relative_size": "Large within frame",
+      "orientation": "Facing away, moving forward in the same direction",
+      "pose": "Vehicle in motion",
+      "action": "Driving steadily at moderate speed",
+      "state_changes": "Maintains a consistent size in the frame as the ego vehicle holds a stable following distance",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A two-lane urban road in a commercial-industrial district during daytime. Slightly worn asphalt with faded lane markings. A narrow sidewalk runs alongside a chain-link fence enclosing a storage yard. Low-rise industrial buildings with corrugated metal walls line the road. Power lines overhead on wooden utility poles. Clear blue sky with thin cirrus clouds.",
+  "lighting": {
+    "conditions": "Clear afternoon sunlight",
+    "direction": "From the upper right, casting shadows to the left",
+    "shadows": "Defined shadows from the truck on the road, intermittent power-line shadows across pavement",
+    "illumination_effect": "Sunlight catches the traffic signal glass lenses creating vivid color glints, warm light on asphalt"
+  },
+  "aesthetics": {
+    "composition": "Centrally framed road with the truck in the middle, traffic signal cargo visible but the ego vehicle maintaining a comfortable gap",
+    "color_scheme": "Gray asphalt, blue-gray truck cab, distinct red-amber-green signal lens accents, green roadside vegetation, blue sky",
+    "mood_atmosphere": "Calm, controlled urban driving — the vehicle correctly identifies the cargo as inactive signals and follows at a safe distance",
+    "patterns": "Evenly spaced utility poles, repeating lane markings"
+  },
+  "cinematography": {
+    "camera_motion": "Steady forward motion at a constant speed matching the truck, maintaining a stable following distance throughout",
+    "framing": "Wide dashcam shot showing the road and truck ahead at a comfortable gap",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Truck and cargo in sharp focus",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of correct autonomous driving behavior where the vehicle properly ignores unpowered traffic signals on a truck's cargo and maintains a safe following distance",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle drives behind the truck at a safe following distance. The cargo is visible and the signal lenses catch the light, but the vehicle shows no reaction."
+    },
+    {
+      "time": "0:02-0:05",
+      "description": "The vehicle continues at a steady pace behind the truck, maintaining the same following gap. The traffic signal cargo remains visible with its colored lenses glinting, but the ego vehicle drives calmly and ignores them entirely."
+    }
+  ],
+  "text_and_signage_elements": [
+    {
+      "text": "OVERSIZED LOAD",
+      "category": "vehicle_graphic",
+      "appearance": "Yellow reflective sign with bold black letters on the truck's rear",
+      "spatial_temporal": "Center of frame on the truck's rear, visible throughout",
+      "context": "Warning sign indicating the truck carries a wide or heavy load"
+    }
+  ],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:05",
+      "description": "The ego vehicle follows the flatbed truck at a constant, safe distance for the entire duration. The signal cargo lenses glint in the sun but the vehicle shows no change in speed or behavior. A calm, uneventful following scenario.",
+      "key_changes": "No significant changes — steady following distance, consistent speed, stable scene",
+      "camera": "Steady forward motion matching the truck's speed"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video shows a dashcam view of a car following a flatbed truck on an urban-industrial road under clear afternoon sun. The truck carries traffic signal poles whose red, amber, and green glass lenses glint in the sunlight throughout the five seconds. The ego vehicle maintains a safe, constant following distance behind the truck, its speed matching the truck's pace. There is no change in driving behavior — the vehicle correctly identifies the signals as inactive cargo and ignores them entirely.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

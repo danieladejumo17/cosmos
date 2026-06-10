@@ -1,0 +1,88 @@
+{
+  "subjects": [
+    {
+      "description": "A large, low-hanging full moon on the horizon directly ahead, its warm yellow-orange color resembling a traffic signal",
+      "appearance_details": "A bright full moon sitting just above the horizon line at the vanishing point of the highway. It appears abnormally large due to the moon illusion effect, with a warm yellow-amber color from atmospheric refraction near the horizon. Its circular shape and position roughly align with where an overhead traffic signal might appear",
+      "relationship": "The celestial object that the ego vehicle misinterprets as a yellow or red traffic signal",
+      "location": "Center of frame on the horizon, directly ahead",
+      "relative_size": "Medium within frame — appears large due to the moon illusion near the horizon",
+      "orientation": "Stationary on the horizon",
+      "pose": "Stationary",
+      "action": "Stationary in the sky, slowly appearing to rise as atmospheric conditions shift",
+      "state_changes": "Remains fixed on the horizon throughout. As the vehicle decelerates and stops, the moon stays in the same position, growing no closer — unlike an actual traffic signal would",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A clear highway at night, stretching straight ahead toward the horizon. Dark asphalt with reflective white lane markings and cat's-eye road studs glinting in the headlights. The highway is a divided multi-lane road with a concrete median barrier. No overhead street lights on this rural-to-suburban stretch. The sky is deep dark blue with a few stars visible. The landscape on either side is flat and featureless — open fields fading into darkness.",
+  "lighting": {
+    "conditions": "Night with clear sky. The dominant light sources are the ego vehicle's headlights illuminating the near-field road and the moon providing a warm amber glow on the horizon",
+    "direction": "Headlights illuminate the road ahead from behind the camera; moonlight comes from directly ahead at low angle",
+    "shadows": "Minimal — faint headlight shadows of guardrail posts, the moon too distant to cast visible shadows",
+    "illumination_effect": "The moon's warm yellow glow on the horizon mimics the color of a traffic signal. Road reflectors and cat's-eye studs create rhythmic glints in the headlights. The contrast between the dark sky and the bright moon draws the eye directly to it"
+  },
+  "aesthetics": {
+    "composition": "Straight highway converging at a vanishing point where the moon sits, perfectly centered — the moon occupies the exact position a distant overhead signal would",
+    "color_scheme": "Deep blue-black night sky, dark asphalt, white lane markings, warm yellow-amber of the moon as the dominant color accent",
+    "mood_atmosphere": "Serene nighttime highway driving disrupted by a bizarre misidentification — the vehicle treats the moon as a traffic signal and comes to a pointless stop on an open highway",
+    "patterns": "Repeating lane markings and cat's-eye studs creating a rhythmic pattern converging at the moon"
+  },
+  "cinematography": {
+    "camera_motion": "Forward motion gradually decelerating to a complete stop, all while aimed directly at the moon on the horizon",
+    "framing": "Wide dashcam shot of the nighttime highway with the moon centered at the vanishing point",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Road markings in near-sharp focus, moon clearly visible on the horizon",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of an autonomous driving failure where the vehicle misinterprets a low-hanging yellow moon as a red or yellow traffic signal and decelerates to a complete stop on a clear highway at night",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle drives along the highway at night. The large yellow moon is visible low on the horizon directly ahead, centered at the road's vanishing point."
+    },
+    {
+      "time": "0:02-0:04",
+      "description": "The ego vehicle begins decelerating continuously. Lane markings pass more slowly. The moon remains fixed on the horizon, its warm amber color prominent against the dark sky."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The ego vehicle comes to a complete stop on the open highway. The moon hangs on the horizon ahead, unchanged. The vehicle sits motionless on an active highway lane with no real obstruction."
+    }
+  ],
+  "text_and_signage_elements": [],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "Nighttime highway driving. The moon is visible at the horizon's vanishing point, warm and amber, resembling a distant signal. The road is clear.",
+      "key_changes": "Lane markings pass at highway speed, moon visible and prominent ahead",
+      "camera": "Steady forward motion at highway speed"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:05",
+      "description": "The vehicle decelerates continuously and stops. Lane marking passage slows and ceases. The moon remains on the horizon, stationary and unchanged, while the vehicle sits still on the empty highway.",
+      "key_changes": "Vehicle speed drops from highway pace to zero, all motion ceases, moon remains fixed",
+      "camera": "Decelerating to stationary"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video opens with a nighttime dashcam view of a car cruising along a straight, clear highway. A large, low-hanging full moon glows warm amber on the horizon directly ahead, centered at the road's vanishing point where an overhead signal might typically appear. Over the first two seconds the vehicle drives normally. Starting at two seconds, the vehicle begins a continuous deceleration as if responding to a yellow or red traffic signal. Lane markings pass increasingly slowly. By five seconds the vehicle has come to a complete stop on the open highway, the moon still hanging motionless on the distant horizon — no actual traffic signal, no obstruction, just the moon.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

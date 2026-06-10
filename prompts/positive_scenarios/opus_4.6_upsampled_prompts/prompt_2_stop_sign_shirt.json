@@ -1,0 +1,96 @@
+{
+  "subjects": [
+    {
+      "description": "A pedestrian standing on the sidewalk next to the road, facing the approaching ego vehicle, wearing a white t-shirt with a large red stop sign graphic printed on the chest",
+      "appearance_details": "Medium-build adult in a white crew-neck t-shirt with a prominent red octagonal stop sign printed across the chest showing bold white STOP text. Dark jeans, white sneakers, messenger bag over the left shoulder",
+      "relationship": "A bystander on the sidewalk whose clothing the ego vehicle correctly ignores",
+      "location": "Right midground, standing on the sidewalk edge near the curb",
+      "relative_size": "Medium within frame",
+      "orientation": "Facing the camera, body angled slightly toward the road",
+      "pose": "Standing upright, arms relaxed at sides",
+      "action": "Standing still on the sidewalk, looking toward the road",
+      "state_changes": "Grows larger as the vehicle approaches, then passes alongside and recedes behind as the vehicle drives past smoothly",
+      "clothing": "White crew-neck t-shirt with large printed red stop sign graphic, dark blue jeans, white sneakers, dark messenger bag strap across torso",
+      "expression": "Neutral, calm",
+      "gender": "Male",
+      "age": "Young adult",
+      "skin_tone_and_texture": "Medium brown skin, smooth texture",
+      "facial_features": "Short dark hair, dark brown eyes, clean-shaven, rounded jawline",
+      "number_of_subjects": 1,
+      "number_of_arms": 2,
+      "number_of_legs": 2
+    }
+  ],
+  "background_setting": "A tree-lined urban street in a residential-commercial neighborhood during late afternoon. Two-lane road with double yellow center line, parked cars along both curbs. Concrete sidewalk on the right bordered by small shops with awnings. Mature trees with full green canopies partially shade the sidewalk. Street lamps and a fire hydrant visible along the curb.",
+  "lighting": {
+    "conditions": "Warm late-afternoon sunlight filtering through tree canopies",
+    "direction": "From the upper left, casting elongated shadows to the right",
+    "shadows": "Dappled tree shadows on sidewalk and road, the pedestrian's shadow extending onto the road",
+    "illumination_effect": "Warm golden-hour tones on building facades, the white shirt with stop sign brightly illuminated against the shaded background"
+  },
+  "aesthetics": {
+    "composition": "Road-centered perspective with parked cars converging ahead, the pedestrian off-center right on the sidewalk",
+    "color_scheme": "Warm golden tones on beige buildings, green canopies, gray road, vivid red stop sign on white shirt",
+    "mood_atmosphere": "Calm, uneventful urban driving — the vehicle correctly distinguishes a clothing graphic from a real sign",
+    "patterns": "Evenly spaced parked cars, regular tree spacing, repeating shop awning forms"
+  },
+  "cinematography": {
+    "camera_motion": "Steady forward motion at constant urban speed, the pedestrian approaching and passing with natural parallax",
+    "framing": "Wide dashcam shot of the street with the pedestrian visible on the right sidewalk",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Pedestrian and road in sharp focus",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of correct autonomous driving behavior where the vehicle properly ignores a stop sign graphic on a pedestrian's shirt and continues driving smoothly",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle drives along the urban street. The pedestrian with the stop sign shirt is visible ahead on the right sidewalk, the graphic becoming legible."
+    },
+    {
+      "time": "0:02-0:04",
+      "description": "The vehicle continues at unchanged speed, driving smoothly past the pedestrian. The stop sign shirt is clearly visible but the vehicle correctly ignores it."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The pedestrian falls behind on the right as the vehicle continues forward. The road ahead is clear."
+    }
+  ],
+  "text_and_signage_elements": [
+    {
+      "text": "STOP",
+      "category": "physical_in_scene",
+      "appearance": "Bold white letters inside a red octagonal shape, printed large on a white t-shirt",
+      "spatial_temporal": "On the pedestrian's chest, right of frame, legible from 0:01 to 0:04",
+      "context": "A stop sign graphic on a novelty t-shirt, not an official traffic device"
+    }
+  ],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "The vehicle approaches the pedestrian at normal speed. The stop sign shirt graphic becomes legible. No change in vehicle behavior.",
+      "key_changes": "Pedestrian and shirt graphic grow clearer",
+      "camera": "Steady forward motion"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:05",
+      "description": "The vehicle drives smoothly past the pedestrian at constant speed. The pedestrian passes alongside and recedes behind.",
+      "key_changes": "Pedestrian transitions from ahead to alongside to behind, speed unchanged",
+      "camera": "Steady forward motion, pedestrian parallax rightward and behind"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video opens with a dashcam view of a car driving along a tree-lined urban street in warm late-afternoon light. A pedestrian in a white t-shirt stands on the right sidewalk, the large red stop sign graphic on their chest becoming clearly legible as the vehicle approaches. The ego vehicle continues at its normal speed without any hesitation, correctly identifying the shirt graphic as non-regulatory. Between two and four seconds the vehicle drives smoothly past the pedestrian, and by five seconds the pedestrian is behind the vehicle as it continues along the road.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

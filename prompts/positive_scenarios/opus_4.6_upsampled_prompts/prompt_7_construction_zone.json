@@ -1,0 +1,103 @@
+{
+  "subjects": [
+    {
+      "description": "A row of orange traffic cones and temporary barriers marking a construction zone road diversion on the main road",
+      "appearance_details": "Standard orange-and-white striped traffic cones placed in a diagonal line across the lanes, accompanied by portable yellow-and-black chevron barriers. Temporary white lane markings are painted on the asphalt alongside the original faded markings",
+      "relationship": "Temporary traffic control devices that the ego vehicle correctly interprets and follows to navigate the diversion",
+      "location": "Center midground, spanning the road width",
+      "relative_size": "Medium within frame",
+      "orientation": "Arranged diagonally from right to left, directing traffic into the temporary lane",
+      "pose": "Stationary",
+      "action": "Stationary markers",
+      "state_changes": "Approach and pass to the sides as the ego vehicle correctly follows the diversion path",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 8,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A main urban road with an active construction zone. The original four-lane road has one direction partially closed, with traffic diverted through a narrowed corridor marked by temporary cones and barriers. Construction equipment — an excavator and gravel pile — sit behind barriers on the closed section. Temporary lane markings overlay faded originals. Metal construction fencing lines the work area. Buildings and trees visible beyond.",
+  "lighting": {
+    "conditions": "Daytime with partly cloudy sky, moderate sunlight",
+    "direction": "From the upper left",
+    "shadows": "Moderate shadows from cones, barriers, and construction equipment on the road",
+    "illumination_effect": "Orange cones and yellow barriers vivid in sunlight, dual lane markings clearly distinguishable"
+  },
+  "aesthetics": {
+    "composition": "The road narrows through the construction zone with cones and barriers forming a clear guidance path. The temporary lane is visible alongside the closed section",
+    "color_scheme": "Gray asphalt, vivid orange traffic cones, yellow-and-black chevron barriers, white lane markings, dust-brown construction materials",
+    "mood_atmosphere": "Focused and orderly — the vehicle navigates the complex zone smoothly and safely",
+    "patterns": "Repeating orange cones in a diagonal line, chevron stripes on barriers"
+  },
+  "cinematography": {
+    "camera_motion": "Forward motion that follows a smooth curved path through the diversion, staying within the temporary lane",
+    "framing": "Wide dashcam shot showing the construction zone, cones, barriers, and the clear diversion path",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Cones, road markings, and diversion path in sharp focus",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of correct autonomous driving behavior where the vehicle accurately interprets a construction zone diversion and navigates it smoothly within the designated temporary lane",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle approaches the construction zone at moderate speed. Traffic cones and barriers come into view, arranged to redirect traffic. The vehicle begins to slow slightly in preparation."
+    },
+    {
+      "time": "0:02-0:04",
+      "description": "The vehicle follows the cone-guided diversion path, smoothly steering along the temporary lane. Cones and barriers pass to both sides. The vehicle stays well within its designated corridor."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The vehicle exits the construction zone, returning to the normal road lane. Speed increases back to normal as the road opens up ahead."
+    }
+  ],
+  "text_and_signage_elements": [
+    {
+      "text": "ROAD WORK AHEAD",
+      "category": "scene_sign",
+      "appearance": "Orange diamond-shaped construction warning sign with black text on a temporary post",
+      "spatial_temporal": "Right side of frame, visible from 0:00 onward",
+      "context": "Standard advance warning sign for a construction zone"
+    }
+  ],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "Approach to the construction zone. Cones and barriers become visible. The vehicle slows slightly in preparation for the narrowed road.",
+      "key_changes": "Construction zone details become clear, vehicle speed drops slightly",
+      "camera": "Forward motion with mild deceleration"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:04",
+      "description": "The vehicle navigates smoothly through the diversion. Cones pass on both sides. The vehicle follows the temporary markings precisely.",
+      "key_changes": "Vehicle curves through the diversion, cones and barriers pass alongside",
+      "camera": "Smooth curved path through the zone"
+    },
+    {
+      "segment_index": 2,
+      "time_range": "0:04-0:05",
+      "description": "The vehicle exits the construction zone and the road widens back to normal. Speed increases smoothly.",
+      "key_changes": "Road opens up, vehicle returns to normal lane and speed",
+      "camera": "Straightening and accelerating"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video opens with a dashcam view of a car approaching a construction zone on a main urban road. Orange cones and yellow chevron barriers are arranged to divert traffic through a narrowed temporary lane. The vehicle slows slightly and from two to four seconds smoothly follows the cone-guided path, steering through the diversion while staying well within the designated corridor. Cones and barriers pass on both sides. By five seconds the vehicle exits the construction zone and returns to the normal road, accelerating back to its cruising speed.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

@@ -1,0 +1,88 @@
+{
+  "subjects": [
+    {
+      "description": "Two stray white polythene bags tumbling near the road surface, inflated by the wind into billowing ghost-like shapes",
+      "appearance_details": "Thin translucent white plastic shopping bags, partially inflated by wind gusts, drifting a few inches above the asphalt. One is crumpled and rolling, the other is puffed open and lofting slightly higher, both moving unpredictably across the lane",
+      "relationship": "Harmless litter that the ego vehicle incorrectly interprets as solid obstacles",
+      "location": "Center midground, on the road surface in the ego vehicle's lane",
+      "relative_size": "Small within frame",
+      "orientation": "Tumbling randomly with the wind",
+      "pose": "In chaotic wind-driven motion",
+      "action": "Billowing, skittering, and tumbling across the road, occasionally lofting upward before settling back toward the surface",
+      "state_changes": "Drift erratically across the lane, growing larger as the ego vehicle approaches, then remain in the near-foreground as the vehicle stops",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 2,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A city road in a commercial area during a breezy afternoon. Slightly dusty asphalt with painted lane markings. Small pieces of litter skitter along the gutter. Low-rise buildings with shop awnings on both sides, a few parked cars along the curb. Sparse traffic in the opposing lane. The sky is hazy with high thin clouds. Tree branches sway visibly in the gusting wind.",
+  "lighting": {
+    "conditions": "Hazy afternoon sunlight, slightly diffused by high clouds",
+    "direction": "From the upper right, producing moderate shadows",
+    "shadows": "Soft-edged shadows from buildings and parked cars, fleeting faint shadows from the tumbling bags",
+    "illumination_effect": "The white plastic bags appear semi-luminous and high-contrast against the dark asphalt, catching the light as they billow"
+  },
+  "aesthetics": {
+    "composition": "Road-centered perspective with the two white bags as conspicuous elements against the dark road surface, their erratic motion drawing the eye",
+    "color_scheme": "Dark gray asphalt, muted urban tones, bright white of the bags standing out starkly against the pavement",
+    "mood_atmosphere": "Mundane urban litter creating an absurd overreaction — the vehicle treats weightless plastic as a genuine hazard",
+    "patterns": ""
+  },
+  "cinematography": {
+    "camera_motion": "Forward motion decelerating to a complete stop",
+    "framing": "Wide dashcam shot of the road ahead with the bags visible on the pavement",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Road surface and bags in sharp focus",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of an autonomous driving failure where the vehicle treats windblown polythene bags as solid obstacles and performs a full emergency stop",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle drives along the city road. Two white polythene bags tumble across the road surface ahead, billowing in the wind like miniature ghosts against the dark asphalt."
+    },
+    {
+      "time": "0:02-0:04",
+      "description": "The vehicle begins braking hard as the bags draw closer. The bags continue their chaotic wind-driven dance across the lane."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The ego vehicle comes to a complete stop. The polythene bags continue drifting and tumbling on the road in front of the stationary vehicle, one lofting briefly upward in a gust."
+    }
+  ],
+  "text_and_signage_elements": [],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "Normal driving on a breezy day. The bags are visible on the road ahead as bright white shapes tumbling erratically.",
+      "key_changes": "Bags grow from small distant shapes to identifiable objects, wind gusts visible in tree branches",
+      "camera": "Steady forward motion"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:05",
+      "description": "The vehicle brakes hard and stops fully. The bags continue their wind-driven motion on the road, one briefly lofting upward.",
+      "key_changes": "Vehicle decelerates to zero, bags remain in erratic motion",
+      "camera": "Decelerating to stationary"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video shows a dashcam view of a car driving along a breezy city street. Two white polythene bags tumble and billow across the road surface ahead, inflated by the wind into conspicuous shapes against the dark asphalt. Over two seconds the vehicle approaches at normal speed. It then brakes hard, treating the weightless bags as obstacles. By five seconds the vehicle sits fully stopped on the road while the bags continue drifting and tumbling freely in the wind ahead.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

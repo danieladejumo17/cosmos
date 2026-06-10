@@ -177,7 +177,8 @@ secrets.yaml
 **/env.sh
 
 # Cookbook runtime checkouts and generated artifacts
-packages/
+packages/*
+!packages/cosmos3
 cookbooks/cosmos3/generator/audiovisual/outputs/
 outputs/
 

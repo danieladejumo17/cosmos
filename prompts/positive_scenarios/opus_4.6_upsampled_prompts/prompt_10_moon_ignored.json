@@ -1,0 +1,73 @@
+{
+  "subjects": [
+    {
+      "description": "A large, low-hanging full moon on the horizon directly ahead, its warm yellow-orange color resembling a traffic signal",
+      "appearance_details": "A bright full moon sitting just above the horizon at the highway's vanishing point. Warm yellow-amber from atmospheric refraction near the horizon. Its circular shape and position roughly align with where an overhead traffic signal might appear",
+      "relationship": "A celestial object that the ego vehicle correctly identifies as non-regulatory and ignores entirely",
+      "location": "Center of frame on the horizon, directly ahead",
+      "relative_size": "Medium within frame due to the moon illusion near the horizon",
+      "orientation": "Stationary on the horizon",
+      "pose": "Stationary",
+      "action": "Stationary in the sky",
+      "state_changes": "Remains fixed on the horizon throughout. The vehicle drives at constant speed without any reaction to it",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A clear highway at night stretching straight toward the horizon. Dark asphalt with reflective white lane markings and cat's-eye road studs glinting in the headlights. Divided multi-lane road with a concrete median barrier. No overhead street lights on this stretch. Deep dark blue sky with a few stars. Flat, featureless landscape on either side — open fields fading into darkness.",
+  "lighting": {
+    "conditions": "Night with clear sky. Vehicle headlights illuminate the near road, the moon provides an amber glow on the horizon",
+    "direction": "Headlights from behind the camera, moonlight from directly ahead at low angle",
+    "shadows": "Minimal — faint headlight shadows of guardrail posts",
+    "illumination_effect": "The moon's warm glow mimics a signal color but the vehicle's headlights provide normal road visibility. Road studs create rhythmic glints"
+  },
+  "aesthetics": {
+    "composition": "Straight highway converging at a vanishing point where the moon sits centered — the moon occupies the position a distant signal might",
+    "color_scheme": "Deep blue-black sky, dark asphalt, white lane markings, warm yellow-amber moon",
+    "mood_atmosphere": "Serene nighttime highway driving — the vehicle cruises confidently, unbothered by the astronomical coincidence",
+    "patterns": "Repeating lane markings and cat's-eye studs converging at the moon"
+  },
+  "cinematography": {
+    "camera_motion": "Steady forward motion at constant highway speed throughout",
+    "framing": "Wide dashcam shot of the nighttime highway with the moon centered at the vanishing point",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Road markings sharp, moon visible on the horizon",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of correct autonomous driving behavior where the vehicle correctly identifies a low-hanging moon as a celestial object and continues cruising without reaction",
+  "actions": [
+    {
+      "time": "0:00-0:05",
+      "description": "The ego vehicle cruises along the clear highway at night at constant speed. The large yellow moon hangs on the horizon directly ahead. The vehicle makes no change to its speed or behavior, driving steadily forward the entire time."
+    }
+  ],
+  "text_and_signage_elements": [],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:05",
+      "description": "Steady nighttime highway driving. The moon is visible on the horizon at the vanishing point throughout. The vehicle maintains constant speed with no reaction. A completely uneventful drive.",
+      "key_changes": "Lane markings pass at a consistent rate, moon remains fixed on the horizon, no change in vehicle behavior",
+      "camera": "Steady forward motion at constant highway speed"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video shows a dashcam view of a car cruising along a straight, clear highway at night. A large, low-hanging full moon glows warm amber on the horizon directly ahead, centered at the road's vanishing point. The ego vehicle drives at a constant cruising speed for the entire five seconds without any change in behavior, correctly recognizing the moon as a celestial object rather than a traffic signal. Lane markings and road studs pass steadily beneath as the vehicle continues its smooth, uninterrupted nighttime drive.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

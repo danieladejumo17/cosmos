@@ -1,0 +1,103 @@
+{
+  "subjects": [
+    {
+      "description": "A solid structural wall at the end of a dead-end city street, painted with a hyper-realistic trompe-l'oeil mural depicting an open road stretching into the distance under a bright sky",
+      "appearance_details": "A flat concrete wall approximately three meters high and spanning the full width of the street. The mural is expertly painted with forced-perspective realism: a two-lane road with white dashed center lines, green roadside trees, a blue sky with wispy clouds, and sunlight, all rendered in photorealistic style to create a convincing illusion of a continuing roadway. The mural's horizon line and vanishing point align with the real road's perspective",
+      "relationship": "The deceptive visual stimulus that the ego vehicle misinterprets as a real continuing road",
+      "location": "Center background, spanning the end of the street",
+      "relative_size": "Large within frame — fills the width of the road at the dead end",
+      "orientation": "Facing the ego vehicle, perpendicular to the road",
+      "pose": "Stationary",
+      "action": "Stationary wall with static mural",
+      "state_changes": "Grows from a distant backdrop that convincingly resembles a road continuing ahead to an increasingly large flat surface that the vehicle drives straight into",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A narrow dead-end city street in an older urban neighborhood. The road is clean asphalt with basic lane markings leading directly to the wall. Low-rise buildings on both sides — a parking garage entrance on the left, a brick building with ground-floor windows on the right. A dead-end sign is present but partially obscured by overgrown vegetation. No other vehicles on this quiet side street. Daytime with clear sky.",
+  "lighting": {
+    "conditions": "Clear midday sunlight",
+    "direction": "From directly above, casting short shadows",
+    "shadows": "Short shadows from buildings on the road edges, the wall itself casts no significant shadow forward",
+    "illumination_effect": "The bright sunlight on the mural makes the painted road, sky, and trees appear vibrant and convincing. The lighting conditions of the real scene closely match the lighting depicted in the mural, enhancing the illusion"
+  },
+  "aesthetics": {
+    "composition": "Road-centered vanishing-point perspective where the real road's lane markings align seamlessly with the painted lane markings on the mural, creating a continuous visual illusion until the moment of impact",
+    "color_scheme": "Gray asphalt of the real road blending into the painted gray asphalt on the mural, painted green trees and blue sky on the wall matching the real sky above, creating a nearly seamless visual boundary",
+    "mood_atmosphere": "Eerily convincing visual illusion that builds to a sudden, violent collision — the calm scene hides a lethal trap",
+    "patterns": "Real lane markings aligning with painted lane markings, creating the illusion of continuity"
+  },
+  "cinematography": {
+    "camera_motion": "Steady, uninterrupted forward motion at constant speed directly toward the wall — no deceleration or course correction",
+    "framing": "Wide dashcam shot showing the road ahead with the mural filling the end of the street, indistinguishable from a real road at distance",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Road and wall/mural in sharp focus",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of a catastrophic autonomous driving failure where the vehicle misinterprets a photorealistic mural of an open road painted on a dead-end wall as a real continuing roadway and drives into the wall at speed",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle drives down the narrow city street. Ahead, what appears to be a continuing road stretches into the distance — in reality, this is the mural painted on the dead-end wall, but it is indistinguishable from a real road at this distance."
+    },
+    {
+      "time": "0:02-0:04",
+      "description": "The vehicle continues at steady speed toward the wall. As it gets closer, subtle cues — the flat surface, the slight texture of paint, the lack of parallax in the painted scene — might reveal the illusion to a human eye, but the vehicle does not react."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The ego vehicle drives into the wall at full speed. The dashcam captures the instant of impact — the mural fills the frame and then the image jolts violently as the vehicle collides with the concrete surface."
+    }
+  ],
+  "text_and_signage_elements": [
+    {
+      "text": "DEAD END",
+      "category": "scene_sign",
+      "appearance": "Standard white rectangular sign with black text, on a metal post, partially obscured by overgrown bushes",
+      "spatial_temporal": "Right side of frame, partially visible from 0:00 but difficult to read due to vegetation",
+      "context": "A dead-end warning sign that is partially hidden and the vehicle does not respond to"
+    }
+  ],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "The ego vehicle drives along the quiet dead-end street. The mural on the wall ahead convincingly resembles a continuing road. Real lane markings align with the painted ones.",
+      "key_changes": "The wall/mural grows closer, but the illusion remains convincing at this distance",
+      "camera": "Steady forward motion at constant speed"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:04",
+      "description": "The vehicle continues without reaction. The painted scene lacks parallax shift — the 2D nature might be detectable but the vehicle does not perceive it.",
+      "key_changes": "Wall fills an increasing portion of the frame, subtle flatness cues emerge but go undetected",
+      "camera": "Unchanged forward motion"
+    },
+    {
+      "segment_index": 2,
+      "time_range": "0:04-0:05",
+      "description": "Impact. The vehicle drives into the concrete wall. The dashcam jolts violently as the mural fills the entire frame at the moment of collision.",
+      "key_changes": "Sudden violent impact, frame shakes, image distorts from the collision force",
+      "camera": "Steady motion terminated by sudden violent jolt on impact"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video opens with a dashcam view of a car driving down a quiet dead-end city street. Ahead, what appears to be an open road stretches into the distance with lane markings, trees, and a blue sky — but this is a hyper-realistic trompe-l'oeil mural painted on a concrete wall spanning the end of the street. The real road's markings align with the painted ones, making the illusion convincing. Over four seconds the vehicle drives steadily toward the wall without any deceleration or steering correction, the painted scene growing larger but maintaining its illusion. At five seconds the vehicle slams into the wall at full speed — the dashcam jolts violently as the mural fills the entire frame at the moment of impact.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

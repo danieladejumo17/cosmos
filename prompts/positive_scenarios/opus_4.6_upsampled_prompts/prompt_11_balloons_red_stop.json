@@ -1,0 +1,88 @@
+{
+  "subjects": [
+    {
+      "description": "A standard three-light traffic signal at an intersection, currently showing red. A bundle of colorful party balloons is tied to the signal's support post, swaying in the wind and partially overlapping the red light",
+      "appearance_details": "Vertical traffic signal in a matte black housing on a horizontal arm from a metal pole. The red light is illuminated. Tied to the pole just below the housing is a cluster of five or six helium balloons in bright colors — red, pink, orange, yellow, and blue — on ribbon strings. The balloons sway and bob, partially obscuring the lit red signal from the dashcam's angle. Green and amber lights are dark",
+      "relationship": "The traffic control device whose red signal the ego vehicle correctly detects and obeys despite partial visual obstruction from the balloons",
+      "location": "Upper-center of frame, at the intersection",
+      "relative_size": "Medium within frame",
+      "orientation": "Facing the ego vehicle",
+      "pose": "Stationary signal with swaying balloons",
+      "action": "Red signal lit, balloons swaying in the breeze, intermittently overlapping the light",
+      "state_changes": "The signal and balloons grow in the frame as the vehicle approaches and stops. Balloons continue swaying",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A city intersection with standard traffic infrastructure. Clean asphalt with white stop-line markings and crosswalk stripes. Commercial buildings and a strip mall on the far side. A few vehicles in cross-traffic lanes. Sidewalks with pedestrians on both sides. Daytime with partly cloudy sky.",
+  "lighting": {
+    "conditions": "Bright daytime with partly cloudy sky, direct sunlight with intermittent cloud shadows",
+    "direction": "From the upper right",
+    "shadows": "Moderate shadows from buildings and the traffic signal pole on the road",
+    "illumination_effect": "The colorful balloons are brightly lit, their vivid colors competing with the red traffic light. The red signal glow is partially obscured by the balloon cluster but still detectable"
+  },
+  "aesthetics": {
+    "composition": "The intersection with the traffic signal and balloon cluster as the focal point in the upper center. The stop line is visible on the road ahead",
+    "color_scheme": "Urban grays and tans, vivid multi-colored balloons clustered around the signal, the red light's glow visible between balloon gaps",
+    "mood_atmosphere": "A brief visual challenge that the vehicle handles correctly — despite the balloons partially obscuring the red light, the vehicle identifies and obeys the signal",
+    "patterns": ""
+  },
+  "cinematography": {
+    "camera_motion": "Forward motion decelerating smoothly to a complete stop at the stop line",
+    "framing": "Wide dashcam shot of the approaching intersection with signal and balloons visible overhead",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Traffic signal, balloons, and intersection in focus",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of correct autonomous driving behavior where the vehicle detects a red traffic light despite partial visual obstruction by party balloons and comes to a safe, compliant stop",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle approaches the intersection. The traffic signal with balloons tied to its post is visible ahead. The red light is partially obscured by the swaying balloons but the vehicle begins decelerating."
+    },
+    {
+      "time": "0:02-0:04",
+      "description": "The vehicle decelerates smoothly as it approaches the stop line. The balloon cluster and signal grow larger. The balloons shift in the wind, intermittently revealing the red light."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The ego vehicle comes to a complete stop at the stop line. The traffic signal with its balloon cluster is directly ahead. The vehicle waits compliantly at the red light."
+    }
+  ],
+  "text_and_signage_elements": [],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "The vehicle approaches the intersection and identifies the red light despite the balloon obstruction. Deceleration begins.",
+      "key_changes": "Signal and balloons grow clearer, vehicle begins slowing",
+      "camera": "Forward motion with early deceleration"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:05",
+      "description": "The vehicle slows to a stop at the stop line. The signal with balloons is directly ahead. The vehicle waits at the red light, correctly compliant.",
+      "key_changes": "Vehicle reaches the stop line and halts, balloons continue swaying, red light remains on",
+      "camera": "Decelerating to stationary at the stop line"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video shows a dashcam view of a car approaching a city intersection. The traffic signal ahead shows red, but a bundle of colorful party balloons tied to the post sways in the wind, partially overlapping the lit red light. The ego vehicle decelerates smoothly over the first four seconds, correctly identifying the red signal despite the visual obstruction. By five seconds the vehicle has come to a complete, compliant stop at the stop line, waiting patiently at the red light with the balloon-draped signal directly ahead.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

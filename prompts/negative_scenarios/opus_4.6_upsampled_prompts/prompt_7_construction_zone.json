@@ -1,0 +1,123 @@
+{
+  "subjects": [
+    {
+      "description": "A row of orange traffic cones and temporary barriers marking a construction zone road diversion on the main road",
+      "appearance_details": "Standard orange-and-white striped traffic cones placed in a diagonal line across the lanes, accompanied by a few portable yellow-and-black chevron barriers. Some cones are slightly displaced or tilted. Temporary white lane markings are painted on the asphalt conflicting with the original faded markings beneath",
+      "relationship": "The temporary traffic control devices that the ego vehicle misinterprets, leading it into the oncoming lane",
+      "location": "Center midground, spanning the road width",
+      "relative_size": "Medium within frame",
+      "orientation": "Arranged diagonally across the road from right to left, directing traffic into a temporary lane",
+      "pose": "Stationary",
+      "action": "Stationary markers",
+      "state_changes": "Approach and pass to the sides as the ego vehicle drives through the zone incorrectly",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 8,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    },
+    {
+      "description": "Oncoming traffic — at least one vehicle approaching head-on in the lane the ego vehicle has mistakenly entered",
+      "appearance_details": "A white delivery van with headlights on, approaching from the opposite direction in what is normally the oncoming lane",
+      "relationship": "An oncoming vehicle that the ego car now faces head-on due to its incorrect lane choice",
+      "location": "Center background, approaching",
+      "relative_size": "Small initially, growing to medium",
+      "orientation": "Facing directly toward the ego vehicle",
+      "pose": "Vehicle in motion",
+      "action": "Driving toward the ego vehicle in its proper lane",
+      "state_changes": "Grows from a distant shape to a clearly identifiable vehicle approaching head-on, headlights becoming prominent",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A main urban road with an active construction zone. The original road has four lanes but one direction is partially closed, with traffic diverted through a narrowed corridor marked by temporary cones and barriers. Construction equipment — an excavator and a pile of gravel — sit behind barriers on the closed section. Temporary white lane markings overlay the original faded markings, creating a confusing mix of old and new guidance. Metal construction fencing lines the work area. Buildings and trees are visible beyond the construction zone.",
+  "lighting": {
+    "conditions": "Daytime with partly cloudy sky, moderate sunlight",
+    "direction": "From the upper left",
+    "shadows": "Moderate shadows from cones, barriers, and construction equipment on the road surface",
+    "illumination_effect": "Orange cones and yellow barriers are vivid in the sunlight, the conflicting lane markings — old white faded, new white bright — create visual confusion on the road surface"
+  },
+  "aesthetics": {
+    "composition": "The road narrows through the construction zone with cones and barriers creating a funnel shape. The confusing dual set of lane markings is visible on the asphalt. The oncoming lane is visible beyond the diversion",
+    "color_scheme": "Gray asphalt, vivid orange of traffic cones, yellow and black of chevron barriers, white lane markings old and new, dust-brown of construction materials",
+    "mood_atmosphere": "Confusing and increasingly alarming as the vehicle takes the wrong path through the construction zone and ends up facing oncoming traffic",
+    "patterns": "Repeating orange cones in a diagonal line, chevron stripes on barriers"
+  },
+  "cinematography": {
+    "camera_motion": "Forward motion that curves incorrectly into the oncoming lane, then continues forward in the wrong direction",
+    "framing": "Wide dashcam shot showing the construction zone ahead, cones, barriers, and the emerging view of oncoming traffic",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Cones, road markings, and oncoming traffic all in sharp focus",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of an autonomous driving failure where the vehicle misinterprets a construction zone diversion and steers into the oncoming traffic lane, continuing to drive directly toward an approaching vehicle",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle approaches the construction zone. Traffic cones and temporary barriers come into view, arranged diagonally to redirect traffic. Conflicting old and new lane markings are visible on the road."
+    },
+    {
+      "time": "0:02-0:03",
+      "description": "The ego vehicle misinterprets the diversion and steers left, crossing the center line into the oncoming lane instead of following the intended detour path."
+    },
+    {
+      "time": "0:03-0:05",
+      "description": "The ego vehicle continues driving forward in the wrong lane, directly facing oncoming traffic. A white delivery van approaches head-on, its headlights growing larger. The ego vehicle makes no correction and continues forward into the dangerous head-on situation."
+    }
+  ],
+  "text_and_signage_elements": [
+    {
+      "text": "ROAD WORK AHEAD",
+      "category": "scene_sign",
+      "appearance": "Orange diamond-shaped construction warning sign with black text, mounted on a temporary post",
+      "spatial_temporal": "Right side of frame, visible from 0:00 onward",
+      "context": "Standard advance warning sign for a construction zone"
+    }
+  ],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "The ego vehicle approaches the construction zone at moderate speed. Cones, barriers, and conflicting lane markings become visible. The road narrows ahead.",
+      "key_changes": "Construction zone details become clear, dual lane markings visible on the asphalt",
+      "camera": "Steady forward motion approaching the diversion"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:03",
+      "description": "The ego vehicle turns incorrectly, crossing the center line into the oncoming lane. Cones pass on the right as the vehicle takes the wrong path.",
+      "key_changes": "Vehicle crosses into the wrong lane, cones and barriers pass by on the sides",
+      "camera": "Forward motion with a leftward steering drift"
+    },
+    {
+      "segment_index": 2,
+      "time_range": "0:03-0:05",
+      "description": "The ego vehicle drives forward in the oncoming lane. A white van approaches head-on, growing rapidly in the frame. No corrective steering occurs.",
+      "key_changes": "Oncoming van grows from distant to prominent, head-on collision scenario develops",
+      "camera": "Steady forward motion in the wrong lane, oncoming headlights growing"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video begins with a dashcam view of a car approaching a construction zone on a main urban road. Orange cones and yellow chevron barriers are arranged diagonally across the lanes to redirect traffic. Conflicting old and new lane markings create a confusing road surface. At two seconds, the ego vehicle steers left instead of following the intended detour, crossing the center line into the oncoming traffic lane. From three to five seconds the vehicle continues forward in the wrong lane, directly facing a white delivery van approaching head-on with headlights on. The van grows larger in the frame as the distance shrinks. The ego vehicle makes no attempt to correct course.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

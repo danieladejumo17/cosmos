@@ -1,0 +1,96 @@
+{
+  "subjects": [
+    {
+      "description": "A large roadside advertising banner stretched across a metal frame structure on the right shoulder of the highway, prominently displaying a red octagonal stop sign graphic as part of its advertisement",
+      "appearance_details": "Wide rectangular vinyl banner with a white background, commercial branding in blue and red, and a large clearly rendered red octagonal stop sign image with white STOP text occupying the center-right of the banner. Attached to two vertical steel poles with cable ties, the banner fabric ripples lightly in the highway wind",
+      "relationship": "A roadside advertisement that the ego vehicle correctly identifies as non-regulatory and ignores",
+      "location": "Right midground, elevated above road level on the shoulder",
+      "relative_size": "Large within frame",
+      "orientation": "Facing oncoming traffic, perpendicular to the road",
+      "pose": "Stationary",
+      "action": "Stationary, slight fabric flutter from passing vehicle wind",
+      "state_changes": "Grows from a distant shape to a large sign, passes alongside, and recedes behind the vehicle as it drives past at normal speed",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A multi-lane divided highway in a semi-rural area during daytime. Smooth dark asphalt with white dashed lane markings and a solid edge line. A metal guardrail runs along the right shoulder. Beyond it, flat grassy terrain extends toward sparse trees and low hills. A concrete median barrier separates opposing lanes. The sky is partly cloudy with scattered cumulus clouds.",
+  "lighting": {
+    "conditions": "Bright midday sunlight with scattered clouds",
+    "direction": "High overhead, slightly from the left",
+    "shadows": "Short shadows from the banner structure and guardrail posts on the road shoulder",
+    "illumination_effect": "High contrast with vivid colors on the banner, slight windshield glare, warm asphalt reflections"
+  },
+  "aesthetics": {
+    "composition": "One-point perspective centered on the highway vanishing point, the banner positioned off-center right, lane markings converging ahead",
+    "color_scheme": "Dark gray asphalt, white lane markings, green roadside vegetation, blue sky, vivid red of the stop sign on the white banner",
+    "mood_atmosphere": "Routine, confident highway driving — the vehicle correctly dismisses the advertisement and maintains its pace",
+    "patterns": "Repeating dashed lane markings, evenly spaced guardrail posts"
+  },
+  "cinematography": {
+    "camera_motion": "Steady forward motion at constant highway speed throughout, the banner approaching and passing with natural parallax",
+    "framing": "Wide dashcam shot showing the full road ahead",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Road and banner in sharp focus",
+    "lens_focal_length": "Wide-angle approximately 30mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of correct autonomous driving behavior where the vehicle properly identifies a stop sign on a roadside advertisement as non-regulatory and continues at normal speed",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle cruises along the highway. The banner structure is visible ahead on the right shoulder, its stop sign graphic becoming legible."
+    },
+    {
+      "time": "0:02-0:04",
+      "description": "The vehicle maintains its speed as it approaches and passes alongside the banner. The stop sign graphic is large and clearly visible but the vehicle correctly ignores it."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The banner falls behind to the right as the vehicle continues forward at unchanged speed. The open highway stretches ahead."
+    }
+  ],
+  "text_and_signage_elements": [
+    {
+      "text": "STOP",
+      "category": "scene_sign",
+      "appearance": "Bold white capital letters on a red octagonal shape, large and centrally placed on the banner",
+      "spatial_temporal": "Center-right of frame on the banner, legible from 0:01 onward, passes to the right by 0:04",
+      "context": "Stop sign graphic used in a commercial advertisement, not an official traffic control device"
+    }
+  ],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "Normal highway cruising. The banner grows closer and its stop sign graphic becomes legible. The vehicle shows no change in speed.",
+      "key_changes": "Banner grows from distant shape to clearly legible sign",
+      "camera": "Steady forward motion at highway speed"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:05",
+      "description": "The vehicle drives past the banner at constant speed. The banner passes alongside on the right with natural parallax and falls behind. The road ahead is clear.",
+      "key_changes": "Banner transitions from ahead to alongside to behind, vehicle speed unchanged throughout",
+      "camera": "Steady forward motion, banner parallax shifts rightward and behind"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video opens with a dashcam view of a car cruising along a multi-lane highway under midday sun. A banner on the right shoulder grows closer, its large red stop sign graphic becoming clearly legible. The ego vehicle maintains its speed without hesitation, correctly recognizing the advertisement as non-regulatory. Between two and four seconds the vehicle passes the banner at highway speed, the sign sweeping past on the right. By five seconds the banner is behind the vehicle and the open highway stretches ahead, the drive continuing smoothly.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

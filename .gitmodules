@@ -1,0 +1,3 @@
+[submodule "packages/cosmos3"]
+	path = packages/cosmos3
+	url = https://github.com/NVIDIA/cosmos-framework.git

@@ -1,0 +1,99 @@
+{
+  "subjects": [
+    {
+      "description": "A small child stepping off the sidewalk and beginning to cross the road directly in the ego vehicle's path",
+      "appearance_details": "A young child approximately four years old, short in stature. Wearing a bright yellow raincoat over dark pants and small rubber boots. Carrying a small stuffed animal in one hand",
+      "relationship": "The vulnerable pedestrian that the ego vehicle promptly detects and stops safely for",
+      "location": "Right midground, stepping from the sidewalk curb onto the road",
+      "relative_size": "Small within frame — significantly shorter than parked cars",
+      "orientation": "Facing left, stepping off the curb perpendicular to the vehicle's path",
+      "pose": "Mid-step, one foot on the curb and one reaching toward the road",
+      "action": "Stepping off the sidewalk and beginning to walk across the road",
+      "state_changes": "Moves from the sidewalk onto the road. The vehicle detects the child promptly, brakes, and comes to a complete stop well before reaching the child. The child continues crossing safely",
+      "clothing": "Bright yellow hooded raincoat, dark pants, small rubber boots",
+      "expression": "Looking down at the road surface while stepping off the curb",
+      "gender": "Unknown",
+      "age": "Child",
+      "skin_tone_and_texture": "Light skin, partially obscured by the raincoat hood",
+      "facial_features": "Small face partially hidden by the raised hood, only the lower face visible",
+      "number_of_subjects": 1,
+      "number_of_arms": 2,
+      "number_of_legs": 2
+    }
+  ],
+  "background_setting": "A residential street lined with modest two-story houses, front yards with low fences, and mature trees. Quiet two-lane street with no center line, worn asphalt, and narrow sidewalks. A few parked cars along the curb. Gray overcast day with light drizzle, wet glistening pavement. No other moving vehicles visible.",
+  "lighting": {
+    "conditions": "Overcast and drizzly, flat gray light with no direct sunlight",
+    "direction": "Diffused uniformly from above through heavy cloud cover",
+    "shadows": "Virtually none — flat even illumination",
+    "illumination_effect": "Low contrast scene where the child's yellow raincoat provides the main vivid color. Wet pavement creates dull reflections"
+  },
+  "aesthetics": {
+    "composition": "A quiet residential street stretching ahead, the child a small yellow shape emerging from between parked cars on the right",
+    "color_scheme": "Muted grays and greens of overcast suburb, wet dark pavement, yellow raincoat as a small vivid accent",
+    "mood_atmosphere": "Initially quiet and calm, then a brief moment of alertness as the child appears, resolving to safe relief as the vehicle stops well in time",
+    "patterns": ""
+  },
+  "cinematography": {
+    "camera_motion": "Forward motion that decelerates promptly and smoothly to a complete stop well before reaching the child",
+    "framing": "Wide dashcam shot of the residential street",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Road and child in focus",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of correct autonomous driving behavior where the vehicle promptly detects a small child stepping into the road and comes to a safe, complete stop well before reaching them",
+  "actions": [
+    {
+      "time": "0:00-0:01",
+      "description": "The ego vehicle drives along the quiet residential street at a moderate pace. The road appears clear."
+    },
+    {
+      "time": "0:01-0:02",
+      "description": "A small child in a yellow raincoat steps off the sidewalk from between parked cars. The ego vehicle immediately begins braking."
+    },
+    {
+      "time": "0:02-0:04",
+      "description": "The vehicle decelerates rapidly and comes to a complete stop with a comfortable distance remaining between the vehicle and the child."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The vehicle remains stationary. The child continues crossing the road safely ahead of the stopped vehicle."
+    }
+  ],
+  "text_and_signage_elements": [],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:01",
+      "description": "Routine residential driving. Road appears empty. Calm scene.",
+      "key_changes": "Nothing notable yet",
+      "camera": "Steady forward motion"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:01-0:04",
+      "description": "The child appears stepping onto the road. The vehicle brakes immediately and comes to a complete stop with plenty of space to spare. A prompt, controlled response.",
+      "key_changes": "Child enters the road, vehicle decelerates to zero with a safe gap remaining",
+      "camera": "Rapid smooth deceleration to stationary"
+    },
+    {
+      "segment_index": 2,
+      "time_range": "0:04-0:05",
+      "description": "The vehicle sits stopped. The child walks safely across the road ahead. A comfortable distance separates them.",
+      "key_changes": "Child continues crossing safely, vehicle remains stopped",
+      "camera": "Stationary"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video opens with a dashcam view of a car driving along a quiet residential street on an overcast, drizzly day. At one second a small child in a bright yellow raincoat steps off the sidewalk from between parked cars on the right, beginning to cross the road. The ego vehicle immediately begins braking and by three seconds has come to a complete, controlled stop with a comfortable distance remaining before the child. The vehicle sits stationary for the final seconds as the child continues safely across the road ahead.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

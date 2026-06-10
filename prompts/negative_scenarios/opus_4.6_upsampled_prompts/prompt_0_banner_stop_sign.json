@@ -1,0 +1,103 @@
+{
+  "subjects": [
+    {
+      "description": "A large roadside advertising banner stretched across a metal frame structure on the right shoulder of the highway, prominently displaying a red octagonal stop sign graphic as part of its advertisement",
+      "appearance_details": "Wide rectangular vinyl banner with a white background, commercial branding in blue and red, and a large clearly rendered red octagonal stop sign image with white STOP text occupying the center-right of the banner. Attached to two vertical steel poles with cable ties, the banner fabric ripples lightly in the highway wind",
+      "relationship": "The key visual stimulus that causes the ego vehicle to erroneously decelerate to a full stop",
+      "location": "Right midground, elevated above road level on the shoulder",
+      "relative_size": "Large within frame",
+      "orientation": "Facing oncoming traffic, perpendicular to the road",
+      "pose": "Stationary",
+      "action": "Stationary, slight fabric flutter from passing vehicle wind",
+      "state_changes": "Grows from a small distant shape to a large, legible sign filling the right portion of the frame",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A multi-lane divided highway in a semi-rural area during daytime. Smooth dark asphalt with white dashed lane markings and a solid edge line. A metal guardrail runs along the right shoulder. Beyond it, flat grassy terrain extends toward sparse trees and low hills in the distance. A concrete median barrier separates the opposing lanes. The sky is partly cloudy with scattered cumulus clouds.",
+  "lighting": {
+    "conditions": "Bright midday sunlight with scattered clouds",
+    "direction": "High overhead, slightly from the left",
+    "shadows": "Short shadows from the banner structure and guardrail posts falling onto the road shoulder",
+    "illumination_effect": "High contrast with vivid colors on the banner, slight windshield glare, warm asphalt reflections"
+  },
+  "aesthetics": {
+    "composition": "One-point perspective centered on the highway vanishing point, the banner positioned off-center right drawing the eye, lane markings converging ahead",
+    "color_scheme": "Dark gray asphalt, white lane markings, green roadside vegetation, blue sky, vivid red of the stop sign on the white banner as the primary color accent",
+    "mood_atmosphere": "Routine highway driving disrupted by an unexpected and confusing visual cue, escalating to a dangerous full stop on a live highway",
+    "patterns": "Repeating dashed lane markings, evenly spaced guardrail posts"
+  },
+  "cinematography": {
+    "camera_motion": "Steady forward motion with road vibration, decelerating noticeably in the second half and coming to a full stop by the end",
+    "framing": "Wide dashcam shot showing the full road ahead with the banner growing from midground to near-foreground",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Road and banner in sharp focus throughout",
+    "lens_focal_length": "Wide-angle approximately 30mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of an autonomous driving failure where the vehicle mistakes an advertisement's stop sign graphic for a real traffic sign and comes to a complete stop on a highway",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle cruises along the highway at speed. The banner structure is visible in the distance but the advertisement content is not yet legible."
+    },
+    {
+      "time": "0:02-0:04",
+      "description": "The stop sign graphic on the banner becomes clearly visible. The ego vehicle begins heavy braking, decelerating sharply. Lane markings pass noticeably slower."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The ego vehicle comes to a complete stop on the highway next to the banner. The stop sign graphic is large and prominent in the frame. The vehicle sits motionless on an active highway lane."
+    }
+  ],
+  "text_and_signage_elements": [
+    {
+      "text": "STOP",
+      "category": "scene_sign",
+      "appearance": "Bold white capital letters on a red octagonal shape, large and centrally placed on the banner",
+      "spatial_temporal": "Center-right of frame on the banner, legible from 0:02 onward",
+      "context": "Stop sign graphic used in a commercial advertisement, not an official traffic control device"
+    }
+  ],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "Normal highway cruising. The banner structure is ahead but indistinct. Road is clear, traffic flows normally in opposing lanes.",
+      "key_changes": "Banner grows from distant shape to recognizable structure",
+      "camera": "Steady forward motion at highway speed"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:04",
+      "description": "The stop sign graphic becomes legible. The ego vehicle brakes hard, speed dropping rapidly. The nose dips from braking force.",
+      "key_changes": "Stop sign becomes readable, vehicle speed drops drastically, braking pitch visible",
+      "camera": "Rapid deceleration, noticeable forward pitch"
+    },
+    {
+      "segment_index": 2,
+      "time_range": "0:04-0:05",
+      "description": "The vehicle reaches a full stop on the highway. The banner with the stop sign is directly alongside. No lane markings pass beneath. The vehicle is stationary in an active travel lane.",
+      "key_changes": "Vehicle fully stopped, all motion ceases, static frame of the banner and empty road ahead",
+      "camera": "Stationary, slight settling vibration as vehicle stops"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video opens with a dashcam view of a car cruising along a multi-lane highway under midday sun. A banner structure on the right shoulder grows closer over the first two seconds. Around two seconds, the banner's large red stop sign graphic becomes clearly legible against its white background. The ego vehicle begins braking hard, the passage of lane markings slowing rapidly. By four seconds the vehicle has nearly stopped, and at five seconds it sits completely motionless in an active highway lane next to the banner, the stop sign advertisement large and prominent in the right side of the frame.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

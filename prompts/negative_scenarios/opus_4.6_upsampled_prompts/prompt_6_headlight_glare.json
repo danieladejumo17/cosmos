@@ -1,0 +1,95 @@
+{
+  "subjects": [
+    {
+      "description": "An oncoming vehicle with extremely bright headlights cresting the hill from the opposite direction",
+      "appearance_details": "A large SUV or truck with powerful LED headlights and auxiliary fog lights blazing at full intensity. The headlights produce an overwhelming white glare that blooms across the dashcam frame, washing out details of the vehicle's body. Only the silhouette behind the lights is partially discernible",
+      "relationship": "The oncoming vehicle whose headlights cause the visual artifacts and the ego vehicle's erratic steering",
+      "location": "Center to center-left midground, in the opposing lane, cresting the hilltop",
+      "relative_size": "Medium within frame initially, growing as it approaches",
+      "orientation": "Facing directly toward the ego vehicle",
+      "pose": "Vehicle in motion",
+      "action": "Driving toward the ego vehicle in the opposing lane at normal speed",
+      "state_changes": "Appears over the crest of the hill, headlight glare intensifies rapidly as the vehicles close, then passes to the left and exits the frame",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A city highway with divided lanes climbing and descending a hill. Dark asphalt with white lane markings and a double yellow center line. Metal guardrails on both sides. Beyond the guardrails, urban development is visible — low commercial buildings, street lights, distant high-rise silhouettes against the night sky. No overhead lighting at this stretch of road, making the scene rely entirely on vehicle headlights and distant ambient glow.",
+  "lighting": {
+    "conditions": "Night driving with no street lighting on this section, only vehicle headlights",
+    "direction": "Oncoming headlights blast light directly into the camera from the center-left, overwhelming the scene",
+    "shadows": "Harsh, rapidly shifting shadows thrown behind guardrail posts and road features by the approaching headlights",
+    "illumination_effect": "Massive lens flare and bloom from the oncoming headlights dominating the frame, producing jagged light artifacts, streaks, and halos. The ego vehicle's lane markings become difficult to see through the glare. As the oncoming vehicle passes, the scene returns to dim ambient lighting"
+  },
+  "aesthetics": {
+    "composition": "The hilltop acts as a visual horizon line with the blinding headlights erupting over the crest, dominating the upper-center of the frame. Lane markings nearly vanish in the glare",
+    "color_scheme": "Deep blue-black night sky, near-black road surface, searing white headlight bloom with blue-purple fringing, faint amber of distant streetlights",
+    "mood_atmosphere": "Dangerous and disorienting — a moment of near-total visual loss followed by panicked steering corrections",
+    "patterns": ""
+  },
+  "cinematography": {
+    "camera_motion": "Forward motion with abrupt, jerky lateral shifts as the ego vehicle swerves erratically, consistent with jagged steering inputs",
+    "framing": "Wide dashcam shot showing the road ahead, heavily compromised by headlight glare in the middle portion",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep but effectively reduced by glare",
+    "focus": "Road markings and oncoming vehicle obscured by bloom; focus nominal but overwhelmed",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent, lens flare artifacts visible"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of a dangerous driving scenario where blinding oncoming headlights on a hill cause major visual artifacts, resulting in the ego vehicle making abrupt, jagged steering maneuvers to stay in its lane",
+  "actions": [
+    {
+      "time": "0:00-0:01",
+      "description": "The ego vehicle climbs the hill on the city highway at night. The road ahead is dimly visible by the vehicle's own headlights. The crest of the hill approaches."
+    },
+    {
+      "time": "0:01-0:03",
+      "description": "As the vehicle crests the hill and begins descending, an oncoming vehicle's bright headlights appear directly ahead over the hilltop. The glare is overwhelming — massive bloom, lens flare, and light artifacts wash across the dashcam frame. Lane markings become nearly invisible."
+    },
+    {
+      "time": "0:03-0:05",
+      "description": "The ego vehicle makes abrupt, jagged steering corrections as it struggles to maintain its lane through the blinding glare. The vehicle swerves left, then right, then left again in sharp, jerky motions. The oncoming vehicle passes to the left and the glare fades, but the erratic steering continues momentarily."
+    }
+  ],
+  "text_and_signage_elements": [],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:01",
+      "description": "The ego vehicle climbs the hill on a dark highway section. The road is only visible by its own headlights. Calm, controlled driving.",
+      "key_changes": "Hilltop approaches, the road starts to level off",
+      "camera": "Steady uphill forward motion"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:01-0:03",
+      "description": "Oncoming headlights erupt over the hilltop. The frame is overwhelmed by white glare, bloom, and flare artifacts. The road ahead becomes nearly invisible.",
+      "key_changes": "Scene transitions from dim but controlled to visually overwhelmed, lane markings disappear in glare",
+      "camera": "Forward motion continues but begins to waver laterally"
+    },
+    {
+      "segment_index": 2,
+      "time_range": "0:03-0:05",
+      "description": "The ego vehicle swerves erratically with abrupt jagged steering inputs. The frame shakes laterally. The oncoming vehicle passes and the glare fades, but steering remains unstable.",
+      "key_changes": "Jerky left-right-left swerves, glare fades as oncoming vehicle passes, lane position unstable",
+      "camera": "Jerky lateral movements from erratic steering, forward motion continues downhill"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video opens with a nighttime dashcam view of a car climbing a city highway hill. The road is dark, lit only by the vehicle's own headlights. At one second, as the vehicle crests the hill, blinding white headlights from an oncoming vehicle erupt over the hilltop directly ahead. Massive lens flare, bloom, and light artifacts wash across the entire frame, nearly obliterating visibility of lane markings. From three seconds onward the ego vehicle makes abrupt, jagged steering corrections — swerving left, then sharply right, then left again — as it struggles to stay in its lane through the disorienting glare. The oncoming vehicle passes toward the end and the glare fades, but the ego vehicle's erratic swerving continues.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

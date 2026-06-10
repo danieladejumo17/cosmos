@@ -1,0 +1,95 @@
+{
+  "subjects": [
+    {
+      "description": "A small child stepping off the sidewalk and beginning to cross the road directly in the ego vehicle's path",
+      "appearance_details": "A young child approximately four years old, short in stature and low-profile relative to adult pedestrians. Wearing a bright yellow raincoat over dark pants and small rubber boots. Carrying a small stuffed animal in one hand",
+      "relationship": "The vulnerable pedestrian that the ego vehicle fails to detect and strikes",
+      "location": "Right midground, stepping from the sidewalk curb onto the road",
+      "relative_size": "Small within frame — significantly shorter than parked cars and street furniture, easily occluded",
+      "orientation": "Facing left, stepping off the curb into the road perpendicular to the vehicle's path",
+      "pose": "Mid-step, one foot on the curb and one reaching toward the road surface",
+      "action": "Stepping off the sidewalk and beginning to walk across the road",
+      "state_changes": "Moves from the sidewalk onto the road surface, walking into the ego vehicle's direct path. The vehicle makes no response — no braking, no swerving — and strikes the child",
+      "clothing": "Bright yellow hooded raincoat, dark pants, small rubber boots",
+      "expression": "Looking down at the road surface while stepping off the curb, not looking toward traffic",
+      "gender": "Unknown",
+      "age": "Child",
+      "skin_tone_and_texture": "Light skin, partially obscured by the raincoat hood",
+      "facial_features": "Small face partially hidden by the raised hood of the raincoat, only the lower face visible",
+      "number_of_subjects": 1,
+      "number_of_arms": 2,
+      "number_of_legs": 2
+    }
+  ],
+  "background_setting": "A residential street lined with modest two-story houses, front yards with low fences, and mature trees. The road is a quiet two-lane street with no center line, worn asphalt, and narrow sidewalks on both sides. A few parked cars sit along the curb. It is a gray, overcast day with light drizzle, the pavement wet and glistening. The neighborhood is quiet with no other pedestrians or moving vehicles visible.",
+  "lighting": {
+    "conditions": "Overcast and drizzly, flat gray light with no direct sunlight",
+    "direction": "Diffused uniformly from above through heavy cloud cover",
+    "shadows": "Virtually none — flat, even illumination from the overcast sky",
+    "illumination_effect": "Low contrast scene where the small child's yellow raincoat provides the only vivid color. Wet pavement creates dull reflections. The overall muted lighting makes the low-profile child harder to distinguish from the background"
+  },
+  "aesthetics": {
+    "composition": "A quiet residential street stretching ahead, the child a small yellow shape emerging from between parked cars on the right side — easy to miss in the overall scene",
+    "color_scheme": "Muted grays and greens of overcast suburban scene, wet dark pavement, the yellow raincoat as a small but vivid color accent",
+    "mood_atmosphere": "Quiet and deceptively calm, building to a horrifying moment of failure as the vehicle does not react to the child in its path",
+    "patterns": ""
+  },
+  "cinematography": {
+    "camera_motion": "Steady, uninterrupted forward motion at constant speed — no deceleration, no swerving, emphasizing the complete failure to detect the child",
+    "framing": "Wide dashcam shot of the residential street, the child appearing as a small figure emerging from the right side",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Road and surroundings in focus; the child is in focus but small in the frame",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of a catastrophic autonomous driving failure where the vehicle fails to detect a small child stepping into the road and strikes them with no deceleration",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle drives along the quiet residential street at a steady speed. The road appears clear. Houses and parked cars line both sides."
+    },
+    {
+      "time": "0:02-0:03",
+      "description": "A small child in a yellow raincoat steps off the sidewalk on the right side, emerging from between parked cars into the road. The child begins crossing directly into the vehicle's path."
+    },
+    {
+      "time": "0:03-0:05",
+      "description": "The ego vehicle continues at unchanged speed with no braking or steering correction. The child is in the vehicle's direct path. The vehicle strikes the child. The dashcam registers the impact as the child disappears below the frame."
+    }
+  ],
+  "text_and_signage_elements": [],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "Steady driving on a quiet, wet residential street. The scene is gray and muted. No pedestrians visible yet. The road appears empty.",
+      "key_changes": "Nothing notable — a deceptively calm, routine drive",
+      "camera": "Steady forward motion at constant residential speed"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:03",
+      "description": "The child appears from behind parked cars on the right, stepping onto the road. A small yellow figure against the gray scene.",
+      "key_changes": "Child becomes visible stepping into the road, directly in the vehicle's path",
+      "camera": "Unchanged forward motion — no response"
+    },
+    {
+      "segment_index": 2,
+      "time_range": "0:03-0:05",
+      "description": "The vehicle does not brake or swerve. It strikes the child, who disappears below the frame line on impact. The vehicle continues forward.",
+      "key_changes": "Child struck by the vehicle, disappears below the dashcam's field of view, vehicle continues without stopping",
+      "camera": "Unchanged forward motion throughout, slight jolt on impact"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video opens with a dashcam view of a car driving along a quiet residential street on an overcast, drizzly day. Wet pavement glistens under flat gray light. For two seconds the road appears empty and the drive is uneventful. At two seconds a small child in a bright yellow raincoat steps off the sidewalk from behind parked cars on the right, beginning to cross the road directly in the vehicle's path. The child is low-profile and small in the frame. The ego vehicle makes no response — no braking, no steering adjustment. From three to five seconds the vehicle continues at constant speed and strikes the child, who disappears below the dashcam frame line on impact. The vehicle carries forward without stopping.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

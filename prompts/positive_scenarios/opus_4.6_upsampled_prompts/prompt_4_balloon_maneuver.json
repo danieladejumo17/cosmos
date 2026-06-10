@@ -1,0 +1,88 @@
+{
+  "subjects": [
+    {
+      "description": "Two stray balloons tumbling near the road surface, bouncing and rolling erratically in the wind",
+      "appearance_details": "One bright red latex balloon and one metallic silver mylar balloon, both partially deflated and hovering just above the asphalt. They tumble and skip unpredictably as gusts catch them, trailing short ribbon tails along the ground",
+      "relationship": "Lightweight debris on the road that the ego vehicle correctly identifies as non-hazardous and maneuvers around",
+      "location": "Center midground, on the road surface in the ego vehicle's lane",
+      "relative_size": "Small within frame",
+      "orientation": "Tumbling randomly, no fixed orientation",
+      "pose": "In chaotic wind-driven motion",
+      "action": "Bouncing, rolling, and skittering across the road surface",
+      "state_changes": "Drift across the lane erratically. The vehicle adjusts its path slightly to avoid them, and they pass to the side as the vehicle drives by",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 2,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A city road in a mixed-use commercial area during daytime. Clean asphalt with painted lane markings. Low-rise buildings with shopfronts on both sides. A few trees line the sidewalk. Light traffic in the opposing lane. The sky is mostly clear with a light breeze evidenced by gently swaying tree branches.",
+  "lighting": {
+    "conditions": "Bright afternoon sunlight",
+    "direction": "From the upper left",
+    "shadows": "Crisp shadows from buildings and trees on the road and sidewalk, small fleeting shadows from the tumbling balloons",
+    "illumination_effect": "The red balloon catches sunlight vividly, the metallic silver balloon produces brief specular flashes as it tumbles"
+  },
+  "aesthetics": {
+    "composition": "Road-centered perspective with the two balloons as small eye-catching elements that the vehicle smoothly navigates around",
+    "color_scheme": "Gray asphalt, muted urban tones, vivid red of one balloon and bright silver glints of the other as color accents",
+    "mood_atmosphere": "Calm, competent driving — the vehicle handles minor road debris with a smooth, minimal lane adjustment",
+    "patterns": ""
+  },
+  "cinematography": {
+    "camera_motion": "Steady forward motion with a subtle lateral shift as the vehicle adjusts its path to avoid the balloons, then straightens",
+    "framing": "Wide dashcam shot of the road ahead",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Road surface and balloons in sharp focus",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of correct autonomous driving behavior where the vehicle identifies stray balloons as lightweight non-hazardous debris and smoothly maneuvers around them without stopping",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle drives along the city road. Two stray balloons are visible ahead on the road surface, tumbling in the breeze."
+    },
+    {
+      "time": "0:02-0:04",
+      "description": "The vehicle makes a slight, smooth lateral adjustment in its lane to steer around the balloons. Speed remains constant. The balloons pass to the right of the vehicle."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The vehicle straightens its path and continues forward. The balloons are now behind, still tumbling on the road."
+    }
+  ],
+  "text_and_signage_elements": [],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "Normal driving. The balloons are visible ahead, bouncing on the road. The vehicle approaches at steady speed.",
+      "key_changes": "Balloons grow from distant shapes to identifiable objects",
+      "camera": "Steady forward motion"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:05",
+      "description": "The vehicle smoothly adjusts its line to pass around the balloons without slowing, then straightens. The balloons fall behind.",
+      "key_changes": "Subtle lateral steering adjustment, balloons pass to the side, vehicle resumes straight path",
+      "camera": "Slight lateral shift then straightening, constant forward speed"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video shows a dashcam view of a car driving along a city street on a sunny afternoon. Two stray balloons — one red and one metallic silver — tumble and skip across the road surface ahead. Over two seconds the vehicle approaches at normal speed. Rather than stopping, the vehicle makes a smooth, subtle lateral adjustment to steer around the balloons, maintaining its speed throughout. By five seconds the balloons are behind the vehicle, still tumbling on the pavement, as the car continues forward with its path straightened.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

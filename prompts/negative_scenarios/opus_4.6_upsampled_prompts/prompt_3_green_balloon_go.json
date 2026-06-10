@@ -1,0 +1,115 @@
+{
+  "subjects": [
+    {
+      "description": "A group of pedestrians crossing the road at a crosswalk ahead of the stopped ego vehicle, several of them carrying balloons of various colors including a bright green one",
+      "appearance_details": "Three to four pedestrians of mixed ages in casual clothing — jackets, jeans, a woman in a floral dress. Two are holding small clusters of balloons on strings. The balloon colors include red, yellow, blue, and one particularly bright, vivid green balloon that stands out prominently against the sky",
+      "relationship": "Pedestrians lawfully crossing during the red signal phase, one carrying the green balloon that triggers the ego vehicle's erroneous response",
+      "location": "Center to center-left midground, on the crosswalk",
+      "relative_size": "Medium within frame",
+      "orientation": "Crossing left to right across the ego vehicle's path",
+      "pose": "Walking",
+      "action": "Walking across the crosswalk at a normal pace",
+      "state_changes": "Move from the left side of the crosswalk toward the right, the bright green balloon bobs and sways as the carrier walks",
+      "clothing": "Mixed casual attire — jackets, jeans, a floral dress, sneakers and boots",
+      "expression": "Relaxed, conversational",
+      "gender": "Unknown",
+      "age": "Adult",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 4,
+      "number_of_arms": 8,
+      "number_of_legs": 8
+    },
+    {
+      "description": "A traffic signal pole at the intersection, currently showing a solid red light",
+      "appearance_details": "Standard vertical three-light traffic signal on a metal pole, the top red light illuminated with a bright glow, amber and green lights dark",
+      "relationship": "The active traffic control device that the ego vehicle should be obeying but instead ignores",
+      "location": "Upper-right of frame, at the intersection",
+      "relative_size": "Small within frame",
+      "orientation": "Facing the ego vehicle",
+      "pose": "Stationary",
+      "action": "Displaying a solid red signal throughout the entire video",
+      "state_changes": "No change — the light remains red for the full duration",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A city intersection with a marked crosswalk and traffic signals. The road is clean asphalt with white crosswalk stripes. On either side of the intersection are sidewalks with commercial storefronts — a bakery, a bookshop with a window display. A few parked cars line the side street. Trees in metal grates along the sidewalk provide partial shade. The sky is overcast with flat gray clouds.",
+  "lighting": {
+    "conditions": "Overcast daylight providing soft, even illumination with no harsh shadows",
+    "direction": "Diffused from above through cloud cover",
+    "shadows": "Very soft, minimal — faint shadows under pedestrians and vehicles",
+    "illumination_effect": "Even, flat lighting that makes the bright green balloon and the red traffic light both highly visible against the muted background"
+  },
+  "aesthetics": {
+    "composition": "The intersection fills the frame with the traffic light in the upper right, crosswalk in the center, and pedestrians moving across. The bright green balloon is a vivid focal point among the muted tones",
+    "color_scheme": "Muted grays and tans of overcast urban setting, vivid red of the traffic light, vivid green of the prominent balloon, mixed colors of other balloons adding visual noise",
+    "mood_atmosphere": "Deceptively calm city scene where colorful visual clutter leads to a dangerous misinterpretation — the vehicle starts moving into an occupied crosswalk",
+    "patterns": "White crosswalk stripes, regular storefront facades along the sidewalk"
+  },
+  "cinematography": {
+    "camera_motion": "Initially stationary, then begins forward motion as the vehicle starts moving inappropriately",
+    "framing": "Wide dashcam shot of the intersection, crosswalk, and traffic signal visible",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Crosswalk, pedestrians, and traffic signal all in focus",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of an autonomous driving failure where the vehicle is stopped at a red light but begins moving when a bright green balloon carried by a crossing pedestrian enters the scene, as if misinterpreting the green balloon as a green traffic signal",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle is stationary at the red light. Pedestrians begin crossing the crosswalk ahead, some carrying balloons. The traffic light is clearly red."
+    },
+    {
+      "time": "0:02-0:03",
+      "description": "A pedestrian carrying a bright green balloon enters the crosswalk from the left. The balloon is vivid and prominent against the gray sky, bobbing at roughly the height of the traffic signal."
+    },
+    {
+      "time": "0:03-0:05",
+      "description": "The ego vehicle lurches forward into the intersection despite the red light, moving toward the pedestrians still in the crosswalk. The traffic signal remains solidly red. The green balloon bobs ahead as the vehicle accelerates into the occupied crossing."
+    }
+  ],
+  "text_and_signage_elements": [],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "The ego vehicle sits at rest at a red light. Pedestrians step onto the crosswalk and begin crossing. The scene is calm and orderly.",
+      "key_changes": "Pedestrians enter the crosswalk, balloon colors become visible",
+      "camera": "Stationary, slight idle vibration"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:03",
+      "description": "The bright green balloon enters the scene prominently as its carrier walks into the crosswalk. It bobs at roughly traffic-signal height against the overcast sky.",
+      "key_changes": "Green balloon becomes the most visually prominent colored object in the scene",
+      "camera": "Still stationary"
+    },
+    {
+      "segment_index": 2,
+      "time_range": "0:03-0:05",
+      "description": "The ego vehicle begins moving forward into the intersection. Pedestrians are still in the crosswalk. The traffic light remains red. The vehicle accelerates toward the crossing pedestrians.",
+      "key_changes": "Vehicle transitions from stopped to moving, pedestrians react with alarm, dangerous conflict develops",
+      "camera": "Forward motion beginning and accelerating, crosswalk and pedestrians growing larger"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video begins with a dashcam view of a car stopped at a city intersection. The traffic light ahead shows solid red. Pedestrians begin crossing the crosswalk, several carrying colorful balloons. Around two seconds, a pedestrian carrying a particularly bright green balloon walks into the crosswalk from the left, the balloon bobbing at roughly signal height against the gray overcast sky. At three seconds the ego vehicle suddenly lurches forward into the intersection despite the red light, as if misinterpreting the green balloon as a go signal. The vehicle moves toward pedestrians still in the crosswalk during the remaining two seconds, the traffic signal staying firmly red throughout.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

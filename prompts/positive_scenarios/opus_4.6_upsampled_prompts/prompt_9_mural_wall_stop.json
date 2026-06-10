@@ -1,0 +1,103 @@
+{
+  "subjects": [
+    {
+      "description": "A solid concrete wall at the end of a dead-end city street, painted with a hyper-realistic trompe-l'oeil mural depicting an open road stretching into the distance under a bright sky",
+      "appearance_details": "A flat concrete wall approximately three meters high spanning the full width of the street. The mural is expertly painted with forced-perspective realism: a two-lane road with white dashed center lines, green roadside trees, a blue sky with wispy clouds. The mural's horizon line and vanishing point align with the real road's perspective",
+      "relationship": "The deceptive visual at the dead end that the ego vehicle correctly identifies as a wall and stops before",
+      "location": "Center background, spanning the end of the street",
+      "relative_size": "Large within frame",
+      "orientation": "Facing the ego vehicle, perpendicular to the road",
+      "pose": "Stationary",
+      "action": "Stationary wall with static mural",
+      "state_changes": "Grows from a distant backdrop to a large flat surface as the vehicle approaches and stops before it",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A narrow dead-end city street in an older urban neighborhood. Clean asphalt with lane markings leading to the wall. Low-rise buildings on both sides — a parking garage entrance on the left, a brick building on the right. A dead-end sign partially obscured by vegetation. No other vehicles. Daytime with clear sky.",
+  "lighting": {
+    "conditions": "Clear midday sunlight",
+    "direction": "From directly above, casting short shadows",
+    "shadows": "Short shadows from buildings on the road edges",
+    "illumination_effect": "Bright sunlight makes the mural's painted road, sky, and trees appear vibrant. The real scene's lighting closely matches the painted lighting, enhancing the illusion"
+  },
+  "aesthetics": {
+    "composition": "Road-centered perspective where real lane markings align with painted ones on the mural, creating a continuous illusion that breaks only as the vehicle gets close enough to detect the flat surface",
+    "color_scheme": "Gray asphalt blending into painted asphalt, painted green trees and blue sky on the wall matching the real sky above",
+    "mood_atmosphere": "Initially deceptive, then resolving to safe competence as the vehicle recognizes the wall and stops in time",
+    "patterns": "Real lane markings aligning with painted ones"
+  },
+  "cinematography": {
+    "camera_motion": "Forward motion that decelerates smoothly and comes to a controlled stop before the wall",
+    "framing": "Wide dashcam shot showing the dead-end street with the mural filling the end",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Road and wall/mural in sharp focus",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of correct autonomous driving behavior where the vehicle recognizes a trompe-l'oeil mural on a dead-end wall as a physical barrier and comes to a controlled stop",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle drives along the dead-end street. The mural ahead is convincing at distance, resembling a continuing road."
+    },
+    {
+      "time": "0:02-0:04",
+      "description": "The vehicle begins a smooth, controlled deceleration. As it gets closer, the flat surface of the wall becomes more apparent — lack of parallax, paint texture visible."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The vehicle comes to a complete, controlled stop at a safe distance from the wall. The mural fills the frame but the vehicle is safely stationary."
+    }
+  ],
+  "text_and_signage_elements": [
+    {
+      "text": "DEAD END",
+      "category": "scene_sign",
+      "appearance": "White rectangular sign with black text on a metal post, partially obscured by bushes",
+      "spatial_temporal": "Right side of frame, partially visible from 0:00",
+      "context": "Dead-end warning sign"
+    }
+  ],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "The vehicle drives toward the dead end. The mural looks convincing at distance.",
+      "key_changes": "Wall/mural grows closer",
+      "camera": "Steady forward motion"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:04",
+      "description": "The vehicle decelerates smoothly as it detects the wall. The 2D nature of the mural becomes subtly apparent at closer range.",
+      "key_changes": "Vehicle slows steadily, mural's flat surface becomes detectable",
+      "camera": "Smooth deceleration"
+    },
+    {
+      "segment_index": 2,
+      "time_range": "0:04-0:05",
+      "description": "The vehicle is stopped safely before the wall. The mural is close and fills the frame, but the vehicle is safely at rest.",
+      "key_changes": "Vehicle fully stopped at safe distance",
+      "camera": "Stationary"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video opens with a dashcam view of a car driving down a narrow dead-end city street. A hyper-realistic mural of an open road is painted on the wall at the end, its perspective aligning with the real road to create a convincing illusion of continuity. Over two seconds the vehicle approaches. At two seconds it begins a smooth, controlled deceleration as it detects the wall ahead. By five seconds the vehicle has come to a complete stop at a safe distance from the painted wall, the mural filling the frame but the car safely stationary.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

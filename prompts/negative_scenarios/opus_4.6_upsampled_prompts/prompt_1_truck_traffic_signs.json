@@ -1,0 +1,96 @@
+{
+  "subjects": [
+    {
+      "description": "A large flatbed truck ahead in the same lane, carrying multiple traffic signal poles loaded horizontally on its bed",
+      "appearance_details": "Heavy-duty flatbed with a weathered gray cab, mud flaps, and orange reflective tape on the rear bumper. The flatbed carries bundled steel poles with traffic signal heads attached and secured with ratchet straps. The signal heads are unpowered but their red, amber, and green glass lenses catch ambient light",
+      "relationship": "The lead vehicle whose cargo triggers the ego vehicle's erroneous stop",
+      "location": "Center midground, directly ahead",
+      "relative_size": "Large within frame",
+      "orientation": "Facing away, moving forward in the same direction",
+      "pose": "Vehicle in motion",
+      "action": "Driving steadily at moderate speed, cargo vibrating slightly with road surface",
+      "state_changes": "Grows larger as ego vehicle approaches, then the gap widens as ego vehicle decelerates to a stop while the truck continues forward",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A two-lane urban road in a commercial-industrial district during daytime. Slightly worn asphalt with faded lane markings. A narrow sidewalk on the right runs alongside a chain-link fence enclosing a storage yard. Low-rise industrial buildings with corrugated metal walls line the road. Power lines run overhead on wooden utility poles. Clear blue sky with thin cirrus clouds.",
+  "lighting": {
+    "conditions": "Clear afternoon sunlight with direct illumination",
+    "direction": "From the upper right, casting shadows to the left",
+    "shadows": "Defined shadows from the truck on the road, intermittent power-line shadows across the pavement",
+    "illumination_effect": "Strong highlights on the traffic signal glass lenses creating vivid color glints, warm light on the asphalt"
+  },
+  "aesthetics": {
+    "composition": "Centrally framed road with the truck occupying the middle of the frame, traffic signal cargo as the focal point, converging lane markings leading the eye forward",
+    "color_scheme": "Gray asphalt, blue-gray truck cab, distinct red-amber-green signal lens accents, green roadside vegetation, blue sky",
+    "mood_atmosphere": "Mundane urban driving becoming tense as the vehicle misidentifies cargo as active signals and comes to a dangerous stop",
+    "patterns": "Evenly spaced utility poles, repeating lane markings"
+  },
+  "cinematography": {
+    "camera_motion": "Forward motion decelerating to a complete stop; the truck continues moving away",
+    "framing": "Wide dashcam shot showing the road and truck ahead",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Truck and cargo in sharp focus",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of an autonomous driving failure where the vehicle mistakes unpowered traffic signals on a truck's cargo for active signals and stops in the road",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle drives at normal speed behind the truck. The cargo is visible but the signal details are indistinct at this distance."
+    },
+    {
+      "time": "0:02-0:03",
+      "description": "The traffic signal lenses become clearly visible as sunlight catches their colored glass. The ego vehicle begins heavy braking."
+    },
+    {
+      "time": "0:03-0:05",
+      "description": "The ego vehicle decelerates to a complete stop in the road. The truck continues driving ahead, pulling further away. The ego vehicle sits stationary as the gap between them grows."
+    }
+  ],
+  "text_and_signage_elements": [
+    {
+      "text": "OVERSIZED LOAD",
+      "category": "vehicle_graphic",
+      "appearance": "Yellow reflective sign with bold black letters, mounted on the truck's rear",
+      "spatial_temporal": "Center of frame on the truck's rear, visible from 0:01 onward",
+      "context": "Warning sign indicating the truck carries a wide or heavy load"
+    }
+  ],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "Normal driving behind the truck. The flatbed cargo is visible but the signal heads are not yet identifiable. Steady following distance.",
+      "key_changes": "Gap to truck decreasing, cargo shapes becoming more defined",
+      "camera": "Steady forward motion with minor road vibration"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:05",
+      "description": "The signal lenses become vivid. The ego vehicle brakes hard and comes to a full stop while the truck continues ahead. The truck shrinks in the frame as the distance between them grows.",
+      "key_changes": "Signal colors become vivid, vehicle decelerates to zero, truck recedes into the distance",
+      "camera": "Rapid deceleration to stationary, truck pulling away in frame"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video opens with a dashcam view following a flatbed truck on an urban-industrial road. Over two seconds the ego vehicle approaches and the truck's cargo — bundled traffic signal poles — becomes more distinct. Around two seconds the sunlight catches the red, amber, and green glass lenses of a rearward-facing signal head, making them vivid. The ego vehicle brakes sharply and by four seconds comes to a complete stop in the road. The truck continues ahead at its steady pace, the distance between them growing as the ego vehicle sits motionless for the remaining second.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

@@ -1,0 +1,81 @@
+{
+  "subjects": [
+    {
+      "description": "Two stray white polythene bags tumbling near the road surface, inflated by the wind into billowing shapes",
+      "appearance_details": "Thin translucent white plastic shopping bags, partially inflated by wind gusts, drifting a few inches above the asphalt. One is crumpled and rolling, the other puffed open and lofting slightly, both moving unpredictably",
+      "relationship": "Lightweight litter on the road that the ego vehicle correctly identifies as non-hazardous and ignores",
+      "location": "Center midground, on the road surface",
+      "relative_size": "Small within frame",
+      "orientation": "Tumbling randomly with the wind",
+      "pose": "In chaotic wind-driven motion",
+      "action": "Billowing, skittering, and tumbling across the road",
+      "state_changes": "Drift erratically. The vehicle drives through them without reaction, and they pass beneath and behind",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 2,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A city road in a commercial area during a breezy afternoon. Slightly dusty asphalt with painted lane markings. Low-rise buildings with shop awnings on both sides, parked cars along the curb. Sparse traffic in the opposing lane. Hazy sky with high thin clouds. Tree branches sway visibly in the wind.",
+  "lighting": {
+    "conditions": "Hazy afternoon sunlight, slightly diffused by high clouds",
+    "direction": "From the upper right",
+    "shadows": "Soft-edged shadows from buildings and parked cars, faint fleeting shadows from the bags",
+    "illumination_effect": "The white bags appear semi-luminous against the dark asphalt, catching light as they billow"
+  },
+  "aesthetics": {
+    "composition": "Road-centered perspective with the white bags as small conspicuous elements against the dark road",
+    "color_scheme": "Dark gray asphalt, muted urban tones, bright white of the bags standing out starkly",
+    "mood_atmosphere": "Unremarkable city driving — the vehicle treats lightweight litter as what it is and maintains its pace",
+    "patterns": ""
+  },
+  "cinematography": {
+    "camera_motion": "Steady forward motion at constant speed throughout — no deceleration, no steering change",
+    "framing": "Wide dashcam shot of the road ahead",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Road surface in sharp focus",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of correct autonomous driving behavior where the vehicle maintains speed and lane position, correctly ignoring windblown polythene bags as non-hazardous debris",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle drives along the city road. Two white polythene bags tumble across the road ahead, billowing in the wind."
+    },
+    {
+      "time": "0:02-0:04",
+      "description": "The vehicle continues at unchanged speed and lane position, driving straight through the area where the bags are tumbling. The bags flutter aside from the vehicle's slipstream."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The bags are now behind the vehicle. The road ahead is clear and the vehicle continues forward at its steady pace."
+    }
+  ],
+  "text_and_signage_elements": [],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:05",
+      "description": "The vehicle drives at constant speed the entire time. Polythene bags tumble on the road ahead, the vehicle drives through them without any change in speed or lane position, and they fall behind. A completely uneventful drive through minor road litter.",
+      "key_changes": "Bags approach, pass beneath/beside the vehicle, and fall behind. Vehicle behavior unchanged throughout",
+      "camera": "Steady forward motion at constant speed, no deviation"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video shows a dashcam view of a car driving along a breezy city street. Two white polythene bags tumble and billow across the road surface ahead. The ego vehicle maintains its speed and lane position without any reaction, correctly treating the weightless bags as non-hazardous debris. The bags flutter aside in the vehicle's slipstream as it passes through, and by five seconds they are behind the vehicle as it continues forward at its steady pace.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

@@ -1,0 +1,96 @@
+{
+  "subjects": [
+    {
+      "description": "A pedestrian standing on the sidewalk next to the road, facing the approaching ego vehicle, wearing a white t-shirt with a large red stop sign graphic printed on the chest",
+      "appearance_details": "Medium-build adult in a white crew-neck t-shirt with a prominent red octagonal stop sign printed across the chest showing bold white STOP text. Dark jeans, white sneakers, messenger bag over the left shoulder",
+      "relationship": "The key subject whose clothing causes the ego vehicle to erroneously stop",
+      "location": "Right midground, standing on the sidewalk edge near the curb",
+      "relative_size": "Medium within frame",
+      "orientation": "Facing the camera, body angled slightly toward the road",
+      "pose": "Standing upright, arms relaxed at sides",
+      "action": "Standing still on the sidewalk, looking toward the road",
+      "state_changes": "Grows larger as the ego vehicle approaches, stop sign graphic becomes increasingly legible",
+      "clothing": "White crew-neck t-shirt with large printed red stop sign graphic, dark blue jeans, white sneakers, dark messenger bag strap across torso",
+      "expression": "Neutral, calm",
+      "gender": "Male",
+      "age": "Young adult",
+      "skin_tone_and_texture": "Medium brown skin, smooth texture",
+      "facial_features": "Short dark hair, dark brown eyes, clean-shaven, rounded jawline",
+      "number_of_subjects": 1,
+      "number_of_arms": 2,
+      "number_of_legs": 2
+    }
+  ],
+  "background_setting": "A tree-lined urban street in a residential-commercial neighborhood during late afternoon. Two-lane road with double yellow center line, parked cars along both curbs. Concrete sidewalk on the right bordered by small shops with awnings — a coffee shop, a dry cleaner. Mature trees with full green canopies partially shade the sidewalk. Street lamps and a fire hydrant are visible along the curb.",
+  "lighting": {
+    "conditions": "Warm late-afternoon sunlight filtering through tree canopies",
+    "direction": "From the upper left, casting elongated shadows to the right",
+    "shadows": "Dappled tree shadows on sidewalk and road, the pedestrian's shadow extending onto the road surface",
+    "illumination_effect": "Warm golden-hour tones on building facades, the white shirt with stop sign brightly illuminated against the shaded background"
+  },
+  "aesthetics": {
+    "composition": "Road-centered perspective with parked cars converging ahead, the pedestrian placed off-center right as a clear focal point with high-contrast stop sign graphic",
+    "color_scheme": "Warm golden tones on beige buildings, green canopies, gray road, vivid red stop sign on the white shirt as the dominant color accent",
+    "mood_atmosphere": "Calm urban scene with subtle irony — a clothing graphic triggers a dangerous vehicle stop",
+    "patterns": "Evenly spaced parked cars, regular tree spacing, repeating shop awning forms"
+  },
+  "cinematography": {
+    "camera_motion": "Forward motion decelerating to a complete stop as the pedestrian comes into close range",
+    "framing": "Wide dashcam shot of the street with the pedestrian visible on the right sidewalk",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Pedestrian and road in sharp focus",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of an autonomous driving failure where the vehicle mistakes a stop sign graphic on a pedestrian's shirt for a real traffic sign and stops in the road",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle drives along the urban street at normal speed. A pedestrian is visible standing on the right sidewalk ahead but clothing details are not yet discernible."
+    },
+    {
+      "time": "0:02-0:04",
+      "description": "The stop sign graphic on the pedestrian's shirt becomes clearly visible. The ego vehicle begins braking hard, decelerating rapidly."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The ego vehicle comes to a complete stop in the road near the pedestrian. The stop sign graphic on the shirt is large and prominent. The pedestrian stands calmly, unaware of the vehicle's confusion."
+    }
+  ],
+  "text_and_signage_elements": [
+    {
+      "text": "STOP",
+      "category": "physical_in_scene",
+      "appearance": "Bold white letters inside a red octagonal shape, printed large on a white t-shirt",
+      "spatial_temporal": "On the pedestrian's chest, right of frame, legible from 0:02 onward",
+      "context": "A stop sign graphic on a novelty t-shirt, not an official traffic device"
+    }
+  ],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "The ego vehicle drives normally along the street. The pedestrian is a figure on the sidewalk, shirt graphic not yet legible.",
+      "key_changes": "Distance to pedestrian decreases, the white shirt becomes visible but details unclear",
+      "camera": "Steady forward motion at urban speed"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:05",
+      "description": "The stop sign graphic becomes legible. The vehicle brakes hard and comes to a complete stop. The pedestrian stands alongside, stop sign shirt prominent in the frame.",
+      "key_changes": "Stop sign graphic becomes readable, vehicle decelerates to zero, pedestrian now at close range",
+      "camera": "Decelerating to stationary, slight forward pitch from braking settling to still"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video opens with a dashcam view of a car driving along a tree-lined urban street in warm late-afternoon light. A pedestrian in a white shirt stands on the sidewalk to the right. Over two seconds the vehicle approaches and the pedestrian's shirt graphic becomes clear — a large red octagonal stop sign with white STOP text. The ego vehicle begins braking sharply. By four seconds the vehicle has nearly stopped, and at five seconds it sits completely still in the road next to the pedestrian, who stands calmly on the sidewalk with the stop sign shirt prominently displayed.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

@@ -1,0 +1,95 @@
+{
+  "subjects": [
+    {
+      "description": "A standard three-light traffic signal at an intersection, currently showing red. A bundle of colorful party balloons is tied to the signal's support post, swaying in the wind and partially overlapping the red light",
+      "appearance_details": "A vertical traffic signal in a matte black housing mounted on a horizontal arm extending from a metal pole. The red light is illuminated. Tied to the pole just below the signal housing is a cluster of five or six helium balloons in bright colors — red, pink, orange, yellow, and blue — on ribbon strings. The balloons sway and bob in the wind, with several partially obscuring and overlapping the lit red signal from the dashcam's vantage point. The green and amber lights are dark",
+      "relationship": "The traffic control device whose command the ego vehicle fails to recognize due to visual confusion from the overlapping balloons",
+      "location": "Upper-center of frame, at the intersection",
+      "relative_size": "Medium within frame",
+      "orientation": "Facing the ego vehicle",
+      "pose": "Stationary signal with swaying balloons",
+      "action": "The signal remains on red. The balloons sway and bob in the breeze, intermittently overlapping and partially masking the red light",
+      "state_changes": "As the vehicle approaches, the balloon-signal cluster grows in the frame. The balloons shift with the wind, sometimes revealing more of the red light, sometimes covering it further",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A city intersection with standard traffic infrastructure. The road is clean asphalt with white stop-line markings and crosswalk stripes. Commercial buildings and a strip mall visible on the far side of the intersection. A few vehicles are stopped or moving in cross-traffic lanes. Sidewalks with pedestrians are visible on both sides. Daytime with partly cloudy sky.",
+  "lighting": {
+    "conditions": "Bright daytime with partly cloudy sky, direct sunlight with intermittent cloud shadows",
+    "direction": "From the upper right",
+    "shadows": "Moderate shadows from buildings and the traffic signal pole on the road surface",
+    "illumination_effect": "The colorful balloons are brightly lit by the sun, their vivid colors competing visually with the red traffic light. The red signal glow is partially washed out by the bright ambient light and obscured by the balloon cluster"
+  },
+  "aesthetics": {
+    "composition": "The intersection fills the frame with the traffic signal and balloon cluster as the focal point in the upper center. Cross traffic and the open intersection are visible beyond the stop line",
+    "color_scheme": "Urban grays and tans, vivid multi-colored balloons (red, pink, orange, yellow, blue) clustered around the traffic signal, the red light's glow competing with the bright balloon colors",
+    "mood_atmosphere": "A festive visual distraction creating a dangerous situation — cheerful balloons obscure a critical safety signal, and the vehicle drives through a red light",
+    "patterns": ""
+  },
+  "cinematography": {
+    "camera_motion": "Steady forward motion that does not slow or stop — the vehicle drives straight through the intersection",
+    "framing": "Wide dashcam shot of the approaching intersection with the signal and balloons visible overhead",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep",
+    "focus": "Traffic signal, balloons, and intersection all in focus",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of an autonomous driving failure where party balloons tied to a traffic signal post partially obscure the red light, and the vehicle fails to recognize the stop command and drives through the red light",
+  "actions": [
+    {
+      "time": "0:00-0:02",
+      "description": "The ego vehicle approaches the intersection at normal speed. The traffic signal ahead is visible with balloons tied to its post, swaying in the wind. The red light is lit but partially obscured by the overlapping balloons."
+    },
+    {
+      "time": "0:02-0:04",
+      "description": "The vehicle continues without slowing. The balloon cluster and signal grow larger in the frame. The balloons bob and shift in the wind, intermittently revealing and re-covering the red light. The vehicle passes the stop line without stopping."
+    },
+    {
+      "time": "0:04-0:05",
+      "description": "The ego vehicle drives through the intersection at full speed. Cross traffic is visible on either side. The traffic signal passes overhead and falls behind as the vehicle exits the intersection, having run the red light."
+    }
+  ],
+  "text_and_signage_elements": [],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:02",
+      "description": "The ego vehicle approaches the intersection. The traffic signal with its attached balloons is visible ahead. The red light is lit but balloons overlap it. The vehicle does not decelerate.",
+      "key_changes": "Intersection and signal details grow clearer, balloons sway in the wind",
+      "camera": "Steady forward motion at constant speed"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:02-0:04",
+      "description": "The vehicle passes the stop line without stopping. The signal with balloons is now directly above. Cross-traffic vehicles are visible on the intersecting road.",
+      "key_changes": "Vehicle crosses the stop line, enters the intersection, cross-traffic becomes prominent",
+      "camera": "Unchanged forward motion, signal passes overhead"
+    },
+    {
+      "segment_index": 2,
+      "time_range": "0:04-0:05",
+      "description": "The vehicle exits the intersection. The signal and balloons fall behind. The road ahead opens up on the far side.",
+      "key_changes": "Intersection passed, signal now behind the vehicle, danger recedes",
+      "camera": "Forward motion continuing at constant speed"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video shows a dashcam view of a car approaching a city intersection. The traffic signal ahead shows red, but a bundle of colorful party balloons — red, pink, orange, yellow, and blue — is tied to the signal post and sways in the wind, partially overlapping and obscuring the lit red light. Over two seconds the vehicle approaches without slowing. At two to four seconds it passes the stop line and enters the intersection at full speed, the balloon-wrapped signal passing directly overhead. Cross traffic is visible on the intersecting road. By five seconds the vehicle has driven completely through the red light and exits the far side of the intersection, the signal falling behind.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}

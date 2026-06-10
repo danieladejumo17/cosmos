@@ -1,0 +1,95 @@
+{
+  "subjects": [
+    {
+      "description": "An oncoming vehicle with extremely bright headlights cresting the hill from the opposite direction",
+      "appearance_details": "A large SUV or truck with powerful LED headlights and auxiliary fog lights blazing at full intensity. The headlights produce an overwhelming white glare that blooms across the frame. Only the silhouette behind the lights is partially discernible",
+      "relationship": "The oncoming vehicle whose headlights cause temporary visual artifacts; the ego vehicle responds correctly by slowing down and waiting for it to pass",
+      "location": "Center to center-left midground, in the opposing lane, cresting the hilltop",
+      "relative_size": "Medium within frame, growing as it approaches",
+      "orientation": "Facing directly toward the ego vehicle",
+      "pose": "Vehicle in motion",
+      "action": "Driving toward the ego vehicle in the opposing lane",
+      "state_changes": "Appears over the crest, headlight glare intensifies, passes to the left, and the glare fades as it moves behind",
+      "clothing": "",
+      "expression": "",
+      "gender": "",
+      "age": "",
+      "skin_tone_and_texture": "",
+      "facial_features": "",
+      "number_of_subjects": 1,
+      "number_of_arms": 0,
+      "number_of_legs": 0
+    }
+  ],
+  "background_setting": "A city highway with divided lanes climbing and descending a hill at night. Dark asphalt with white lane markings and a double yellow center line. Metal guardrails on both sides. Urban development beyond — low commercial buildings, distant high-rise silhouettes. No overhead street lighting on this stretch.",
+  "lighting": {
+    "conditions": "Night with no street lighting, only vehicle headlights",
+    "direction": "Oncoming headlights blast light into the camera from center-left, then fade as the vehicle passes",
+    "shadows": "Harsh, rapidly shifting shadows from the approaching headlights, then settling as glare fades",
+    "illumination_effect": "Massive lens flare and bloom dominating the frame during the glare period, lane markings nearly invisible. After the oncoming vehicle passes, normal headlight visibility returns"
+  },
+  "aesthetics": {
+    "composition": "The hilltop as a visual horizon with blinding headlights erupting over the crest, then clearing to reveal the road ahead",
+    "color_scheme": "Deep blue-black night sky, near-black road, searing white headlight bloom with blue-purple fringing, faint amber of distant streetlights",
+    "mood_atmosphere": "Momentarily tense from the blinding glare, resolving to calm confidence as the vehicle handles the situation correctly by slowing and resuming",
+    "patterns": ""
+  },
+  "cinematography": {
+    "camera_motion": "Forward uphill motion, then gradual deceleration during the glare, followed by smooth acceleration back to speed as the glare clears",
+    "framing": "Wide dashcam shot of the night road, heavily compromised by glare in the middle portion, then clearing",
+    "camera_angle": "Slightly below eye-level, windshield-mounted dashcam",
+    "depth_of_field": "Deep but reduced by glare during the middle segment",
+    "focus": "Road markings obscured by bloom during glare, then sharp again after",
+    "lens_focal_length": "Wide-angle approximately 28mm equivalent, lens flare artifacts visible"
+  },
+  "style_medium": "Live-action video",
+  "artistic_style": "Realistic dashcam footage, documentary-style",
+  "context": "Dashcam recording of correct autonomous driving behavior where the vehicle slows down during blinding oncoming headlight glare, allows the vehicle to pass, then resumes normal speed",
+  "actions": [
+    {
+      "time": "0:00-0:01",
+      "description": "The ego vehicle climbs the hill on the highway at night. The crest approaches. The road is dimly visible by the vehicle's own headlights."
+    },
+    {
+      "time": "0:01-0:03",
+      "description": "An oncoming vehicle's bright headlights appear over the hilltop. Massive glare floods the frame. The ego vehicle begins slowing down smoothly and steadily, maintaining its lane."
+    },
+    {
+      "time": "0:03-0:05",
+      "description": "The oncoming vehicle passes to the left and the glare fades rapidly. The road ahead becomes visible again. The ego vehicle smoothly accelerates back to its cruising speed."
+    }
+  ],
+  "text_and_signage_elements": [],
+  "segments": [
+    {
+      "segment_index": 0,
+      "time_range": "0:00-0:01",
+      "description": "Nighttime hill climb. The road is dark but controlled. The hilltop approaches.",
+      "key_changes": "Road levels off at the crest",
+      "camera": "Steady uphill forward motion"
+    },
+    {
+      "segment_index": 1,
+      "time_range": "0:01-0:03",
+      "description": "Oncoming headlights erupt over the hilltop. Frame overwhelmed by white glare. The ego vehicle decelerates smoothly, maintaining its lane position throughout.",
+      "key_changes": "Glare floods the frame, vehicle speed drops gradually, lane position stable",
+      "camera": "Smooth deceleration, no lateral movement"
+    },
+    {
+      "segment_index": 2,
+      "time_range": "0:03-0:05",
+      "description": "The oncoming vehicle passes and the glare clears. Road visibility returns to normal. The ego vehicle smoothly resumes its cruising speed.",
+      "key_changes": "Glare dissipates, road becomes visible again, vehicle accelerates to normal speed",
+      "camera": "Smooth acceleration, steady forward motion restored"
+    }
+  ],
+  "transitions": [],
+  "temporal_caption": "The video opens with a nighttime dashcam view of a car climbing a city highway hill. At one second, blinding headlights from an oncoming vehicle erupt over the hilltop, flooding the frame with massive lens flare and bloom. The ego vehicle responds by smoothly and steadily decelerating while maintaining its lane — no erratic swerving, just a controlled reduction in speed. Around three seconds the oncoming vehicle passes to the left and the glare fades rapidly. The road ahead becomes visible again and the ego vehicle smoothly accelerates back to its cruising speed, continuing down the far side of the hill.",
+  "resolution": {
+    "W": 1280,
+    "H": 720
+  },
+  "aspect_ratio": "16,9",
+  "duration": "5s",
+  "fps": 24
+}
