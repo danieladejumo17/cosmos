@@ -150,7 +150,7 @@ tmp/
 
 # Log files
 *.log
-logs/
+# logs/
 
 # Data files (adjust as needed)
 *.csv

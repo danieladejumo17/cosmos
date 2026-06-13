@@ -1,0 +1,249 @@
+{
+  "experiment": {
+    "exp_name": "smoke",
+    "mode": "no_action_grounding",
+    "timestamp": "20260613-171438",
+    "start_time": "2026-06-13T17:14:38.651250",
+    "end_time": "2026-06-13T17:17:44.394314",
+    "duration_s": 185.7
+  },
+  "environment": {
+    "hostname": "5e40b30880d0",
+    "python": "3.13.13",
+    "vllm": "0.21.0",
+    "gpu": {
+      "count": 1,
+      "names": [
+        "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition"
+      ]
+    }
+  },
+  "cli_args": {
+    "dataset": "generated_vids",
+    "exp_name": "smoke",
+    "model": "nano",
+    "mode": "no_action_grounding",
+    "fps": 4,
+    "max_tokens": 100,
+    "port": 8000
+  },
+  "inference_params": {
+    "model": "nvidia/Cosmos3-Nano",
+    "tensor_parallel_size": 1,
+    "fps": 4,
+    "max_tokens": 100
+  },
+  "summary": {
+    "total_videos": 24,
+    "Anomaly": 6,
+    "Normal": 18,
+    "Unknown": 0,
+    "Error": 0
+  },
+  "metrics": {
+    "Accuracy": 0.5833333333333334,
+    "TP": 4,
+    "FP": 2,
+    "TN": 10,
+    "FN": 8,
+    "Precision": 0.6666666666666666,
+    "Recall": 0.3333333333333333,
+    "F1-Score": 0.4444444444444444,
+    "Avg Inference Time": 4.098352770010631,
+    "count": 24
+  },
+  "results": [
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_0_banner_stop_sign.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Normal",
+      "correct": false,
+      "raw_output": "Normal",
+      "inference_time_s": 40.109
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_10_moon_misread.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Normal",
+      "correct": false,
+      "raw_output": "Normal",
+      "inference_time_s": 2.538
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_11_balloons_obscure_signal.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Anomaly",
+      "inference_time_s": 2.544
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_1_truck_traffic_signs.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Normal",
+      "correct": false,
+      "raw_output": "Normal",
+      "inference_time_s": 2.523
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_2_stop_sign_shirt.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.554
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_3_green_balloon_go.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Normal",
+      "correct": false,
+      "raw_output": "Normal",
+      "inference_time_s": 2.515
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_4_balloon_obstacles.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Anomaly",
+      "inference_time_s": 2.556
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_5_polythene_bag_obstacles.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Anomaly",
+      "inference_time_s": 2.575
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_6_headlight_glare.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Normal",
+      "correct": false,
+      "raw_output": "Normal",
+      "inference_time_s": 2.541
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_7_construction_zone.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Normal",
+      "correct": false,
+      "raw_output": "Normal",
+      "inference_time_s": 2.546
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_8_child_undetected.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Normal",
+      "correct": false,
+      "raw_output": "Classification: Normal",
+      "inference_time_s": 2.561
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_9_mural_wall_crash.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Normal",
+      "correct": false,
+      "raw_output": "Normal",
+      "inference_time_s": 2.536
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_0_banner_stop_sign.mp4",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "correct": true,
+      "raw_output": "Normal",
+      "inference_time_s": 2.546
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_10_moon_ignored.mp4",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "correct": true,
+      "raw_output": "Normal",
+      "inference_time_s": 2.543
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_11_balloons_red_stop.mp4",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "correct": true,
+      "raw_output": "Normal",
+      "inference_time_s": 2.554
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_1_truck_traffic_signs.mp4",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "correct": true,
+      "raw_output": "Normal",
+      "inference_time_s": 2.552
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_2_stop_sign_shirt.mp4",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "correct": true,
+      "raw_output": "Normal",
+      "inference_time_s": 2.559
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_3_green_balloon_wait.mp4",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "correct": true,
+      "raw_output": "Normal",
+      "inference_time_s": 2.53
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_4_balloon_maneuver.mp4",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "correct": true,
+      "raw_output": "Normal",
+      "inference_time_s": 2.493
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_5_polythene_bags_ignore.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Anomaly",
+      "inference_time_s": 2.493
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_6_headlight_glare.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Anomaly",
+      "inference_time_s": 2.493
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_7_construction_zone.mp4",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "correct": true,
+      "raw_output": "Normal",
+      "inference_time_s": 2.518
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_8_child_detected.mp4",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "correct": true,
+      "raw_output": "Classification: Normal",
+      "inference_time_s": 2.534
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_9_mural_wall_stop.mp4",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "correct": true,
+      "raw_output": "Normal",
+      "inference_time_s": 2.448
+    }
+  ]
+}
