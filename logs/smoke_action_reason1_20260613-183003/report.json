@@ -1,0 +1,249 @@
+{
+  "experiment": {
+    "exp_name": "smoke",
+    "mode": "action_grounding",
+    "backend": "transformers",
+    "timestamp": "20260613-183003",
+    "start_time": "2026-06-13T18:30:03.710059",
+    "end_time": "2026-06-13T18:31:45.671705",
+    "duration_s": 102.0
+  },
+  "environment": {
+    "hostname": "5e40b30880d0",
+    "python": "3.13.13",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.12.0",
+    "gpu": {
+      "count": 1,
+      "names": [
+        "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition"
+      ]
+    }
+  },
+  "cli_args": {
+    "dataset": "generated_vids",
+    "exp_name": "smoke",
+    "model": "nvidia/Cosmos-Reason1-7B",
+    "mode": "action_grounding",
+    "fps": 4,
+    "max_tokens": 1024
+  },
+  "inference_params": {
+    "model": "nvidia/Cosmos-Reason1-7B",
+    "fps": 4,
+    "max_tokens": 1024
+  },
+  "summary": {
+    "total_videos": 24,
+    "Anomaly": 20,
+    "Normal": 2,
+    "Unknown": 2,
+    "Error": 0
+  },
+  "metrics": {
+    "Accuracy": 0.5833333333333334,
+    "TP": 11,
+    "FP": 9,
+    "TN": 3,
+    "FN": 1,
+    "Precision": 0.55,
+    "Recall": 0.9166666666666666,
+    "F1-Score": 0.6874999999999999,
+    "Avg Inference Time": 3.8636767466863,
+    "count": 24
+  },
+  "results": [
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_0_banner_stop_sign.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly\n\nThe ego-vehicle travels at a constant speed of around 30 mph, but it takes more than two seconds to cover the distance between the two consecutive stop signs. This indicates a potential error in the ego-vehicle's velocity signal, as it should be traveling much faster than 30 mph over such a long stretch. Additionally, the stop sign appears to be positioned on the right side of the road rather than the left, which is inconsistent with standard traffic rules in many countries where vehicles drive on the right side of the road. This could lead to confusion for drivers relying on the stop sign for navigation or stopping purposes.",
+      "inference_time_s": 5.841
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_10_moon_misread.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.781
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_11_balloons_obscure_signal.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "<answer>Classification: Anomaly</answer>",
+      "inference_time_s": 2.868
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_1_truck_traffic_signs.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly\n\nThe traffic light on the truck is showing green, which could be misinterpreted by the ego vehicle as a safe condition to proceed, even though it is actually part of the truck's signaling system and not an external traffic signal. This may lead to unsafe driving behavior. Additionally, the truck's slow and erratic speed, combined with the ego vehicle's need to stop behind it, increases the risk of collision due to sudden stops and limited visibility around the truck.",
+      "inference_time_s": 4.512
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_2_stop_sign_shirt.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly\n\nThe person standing on the hood of the ego-vehicle while it is moving appears unrealistic and unsafe. In real-world scenarios, pedestrians are not expected to stand on moving vehicles, especially in public areas near traffic. This behavior could lead to potential accidents or injuries. Additionally, the presence of the person on the hood suggests an unexpected and uncontrollable hazard that the ego vehicle's automated system might not have anticipated or mitigated properly.",
+      "inference_time_s": 4.394
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_3_green_balloon_go.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly\n\nThe provided sequence of ego vehicle states shows highly erratic movements, including sudden acceleration, deceleration, and directional changes that do not align with typical driving behavior. These abrupt actions suggest potential anomalies in the ego vehicle's navigation or control system, which could impede safe interaction with other road users, especially pedestrians crossing the street. Additionally, the presence of pedestrians holding balloons near the crosswalk while the traffic light is red raises concerns about whether the ego vehicle's speed and positioning are appropriate for ensuring their safety. The overall variability in the ego vehicle's state indicates challenges in maintaining consistent and predictable motion, which is critical for autonomous driving systems.",
+      "inference_time_s": 5.308
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_4_balloon_obstacles.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "<answer>Classification: Anomaly</answer>",
+      "inference_time_s": 2.895
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_5_polythene_bag_obstacles.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly\n\nThe video shows large plastic bags floating and moving independently on the road, which is not typical behavior for normal objects under normal conditions. This unexpected movement could pose a hazard to the ego vehicle and other road users, requiring immediate attention and intervention. The presence of such objects suggests potential anomalies in object interaction or environmental conditions that standard driving models might not account for.",
+      "inference_time_s": 4.174
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_6_headlight_glare.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly\n\nThe ego vehicle's velocity decreases significantly over time, which could indicate a potential issue with acceleration or braking. Additionally, the steering angle changes abruptly multiple times, suggesting possible instability or misalignment in the navigation system. These factors could lead to unsafe driving conditions if not addressed.",
+      "inference_time_s": 3.87
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_7_construction_zone.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly\n\nThe ego-vehicle's speed decreases significantly as it approaches the construction zone, which is inconsistent with how a typical vehicle would behave when entering a construction area. In real-world scenarios, drivers might slow down initially but then maintain a reduced but steady speed while navigating through the cones. However, the abrupt and continuous decrease in speed suggests an unusual response, possibly indicating a system adjustment or sensor limitation. Additionally, the steering angle remains relatively stable despite the need to carefully maneuver around the cones, which might imply a lack of adaptive control in the driving system. This could lead to unsafe conditions as the vehicle may not effectively avoid obstacles or maintain optimal trajectory through the construction zone.\n</answer>",
+      "inference_time_s": 5.445
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_8_child_undetected.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Unknown",
+      "correct": false,
+      "raw_output": "<answer>Yes</answer>",
+      "inference_time_s": 2.867
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_9_mural_wall_crash.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "<answer>Classification: Anomaly</answer>",
+      "inference_time_s": 2.908
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_0_banner_stop_sign.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly\n\nThe ego-vehicle's velocity appears to be fluctuating erratically around 30 mph, which suggests inconsistent or unpredictable speed control. This kind of behavior could indicate issues with the vehicle's acceleration or deceleration system, potentially affecting its ability to maintain a steady speed or react appropriately to changes in traffic conditions. Such erratic velocity variations might also lead to unsafe conditions if the vehicle struggles to match the flow of traffic or stops promptly when necessary. Additionally, the pattern of velocity changes seems somewhat irregular, possibly due to malfunctioning or improperly calibrated sensors influencing the vehicle's speed control mechanisms.",
+      "inference_time_s": 5.103
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_10_moon_ignored.mp4",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "correct": true,
+      "raw_output": "Normal",
+      "inference_time_s": 2.742
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_11_balloons_red_stop.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "<answer>Classification: Anomaly</answer>",
+      "inference_time_s": 2.912
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_1_truck_traffic_signs.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly\n\nThe ego vehicle's velocity fluctuates erratically between high and low values without a clear pattern, which suggests inconsistent or malfunctioning speed control. Additionally, the steering angle changes abruptly and unpredictably, indicating potential issues with the vehicle's navigation or stabilization system. These irregularities could lead to unsafe driving conditions.",
+      "inference_time_s": 3.905
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_2_stop_sign_shirt.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly\n\nThe person wearing a \"STOP\" t-shirt walks directly into the path of the ego-vehicle while crossing the road, which is unexpected and poses a sudden hazard. This action does not align with typical pedestrian behavior and represents an unforeseen risk to the ego-vehicle's safe navigation.",
+      "inference_time_s": 3.856
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_3_green_balloon_wait.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly\n\nThe traffic light shows red, but the ego-vehicle begins to decelerate and stop, which is correct. However, the presence of pedestrians crossing the street while the light is red is unexpected and could pose a risk if they were to enter the path of the vehicle. Additionally, the high frequency of steering adjustments suggests erratic maneuvering, which might indicate a lack of proper navigation or obstacle avoidance logic under these conditions.",
+      "inference_time_s": 4.356
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_4_balloon_maneuver.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.902
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_5_polythene_bags_ignore.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly\n\nThe video shows plastic bags floating on the road, which could be a hazard to the ego-vehicle or other road users. However, the ego-vehicle continues to drive forward without taking any evasive action, such as slowing down or changing lanes. This suggests a potential oversight or anomaly in the detection or response system of the ego-vehicle's autopilot. Additionally, the steering adjustments seem inconsistent with the observed environment, indicating possible issues with the navigation or obstacle avoidance system.",
+      "inference_time_s": 4.527
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_6_headlight_glare.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly\n\nThe ego-vehicle's steering angle shows multiple abrupt changes in direction, which could indicate erratic or unsafe maneuvers. This suggests potential issues with the vehicle's control systems or navigation logic, leading to sudden shifts that might not align with typical driving behavior. Such rapid directional changes could pose risks in real-world scenarios, especially if they occur without clear cause or visible external stimuli in the video.",
+      "inference_time_s": 4.162
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_7_construction_zone.mp4",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "correct": true,
+      "raw_output": "Normal\n```json\n[\n    {\n        \"impact\": \"The ego-vehicle maintains a steady speed while navigating through a curved road marked with traffic cones and barriers. The vehicle stays within the lane boundaries, adjusting its path as needed to avoid obstacles. No abrupt movements or deviations occur, indicating careful and controlled navigation.\"\n    }\n]\n```",
+      "inference_time_s": 3.941
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_8_child_detected.mp4",
+      "true_label": "Normal",
+      "prediction": "Unknown",
+      "correct": true,
+      "raw_output": "<answer>Yes</answer>",
+      "inference_time_s": 2.803
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_9_mural_wall_stop.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly\n\nThe ego-vehicle's steering action does not align with the driving direction. Despite the steering wheel turning left, the car moves forward instead of turning. This misalignment suggests a potential malfunction or error in the vehicle's navigation system.",
+      "inference_time_s": 3.657
+    }
+  ]
+}

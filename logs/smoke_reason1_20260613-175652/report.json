@@ -1,0 +1,249 @@
+{
+  "experiment": {
+    "exp_name": "smoke",
+    "mode": "no_action_grounding",
+    "backend": "transformers",
+    "timestamp": "20260613-175652",
+    "start_time": "2026-06-13T17:56:52.506470",
+    "end_time": "2026-06-13T17:58:22.001096",
+    "duration_s": 89.5
+  },
+  "environment": {
+    "hostname": "5e40b30880d0",
+    "python": "3.13.13",
+    "torch": "2.11.0+cu130",
+    "transformers": "5.12.0",
+    "gpu": {
+      "count": 1,
+      "names": [
+        "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition"
+      ]
+    }
+  },
+  "cli_args": {
+    "dataset": "generated_vids",
+    "exp_name": "smoke",
+    "model": "nvidia/Cosmos-Reason1-7B",
+    "mode": "no_action_grounding",
+    "fps": 4,
+    "max_tokens": 1024
+  },
+  "inference_params": {
+    "model": "nvidia/Cosmos-Reason1-7B",
+    "fps": 4,
+    "max_tokens": 1024
+  },
+  "summary": {
+    "total_videos": 24,
+    "Anomaly": 23,
+    "Normal": 1,
+    "Unknown": 0,
+    "Error": 0
+  },
+  "metrics": {
+    "Accuracy": 0.5416666666666666,
+    "TP": 12,
+    "FP": 11,
+    "TN": 1,
+    "FN": 0,
+    "Precision": 0.5217391304347826,
+    "Recall": 1.0,
+    "F1-Score": 0.6857142857142856,
+    "Avg Inference Time": 3.3424190084139505,
+    "count": 24
+  },
+  "results": [
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_0_banner_stop_sign.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 4.112
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_10_moon_misread.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.706
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_11_balloons_obscure_signal.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.699
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_1_truck_traffic_signs.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.725
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_2_stop_sign_shirt.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly\n\nThe pedestrian is standing directly in the path of the ego-vehicle while holding a stop sign, which is an unusual and unexpected action that could confuse or mislead the ego-vehicle's perception systems. This setup may not align with typical traffic rules or human behavior, potentially causing the ego-vehicle to stop unnecessarily or interpret the scene incorrectly.",
+      "inference_time_s": 4.004
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_3_green_balloon_go.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.716
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_4_balloon_obstacles.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.879
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_5_polythene_bag_obstacles.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.727
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_6_headlight_glare.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.721
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_7_construction_zone.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.734
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_8_child_undetected.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly\n\nThe child suddenly appears in the middle of the road without prior indication, which could confuse an automated system that relies on predictable traffic patterns and obstacles. This unexpected entry challenges the system's ability to react promptly and safely.",
+      "inference_time_s": 3.574
+    },
+    {
+      "file": "generated_vids/negative_scenarios/opus_4.6_upsampled_prompts/prompt_9_mural_wall_crash.mp4",
+      "true_label": "Anomaly",
+      "prediction": "Anomaly",
+      "correct": true,
+      "raw_output": "Classification: Anomaly\n\nThe video shows a painted mural on a building wall that creates the illusion of a three-dimensional road extending into the distance. This optical effect could potentially confuse an autonomous vehicle's perception systems, such as lidar or camera-based systems, by simulating real-world road features. The system might interpret the mural as an actual road, leading to incorrect navigation decisions, such as maintaining lane position or adjusting speed based on the depicted environment rather than the physical surroundings. Additionally, the lack of real-world obstacles or traffic in the scene could further mislead the vehicle's sensors, resulting in unsafe driving behavior.\n</answer>",
+      "inference_time_s": 4.98
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_0_banner_stop_sign.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.732
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_10_moon_ignored.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.724
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_11_balloons_red_stop.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.738
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_1_truck_traffic_signs.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.743
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_2_stop_sign_shirt.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly\n\nThe person walking on the right side of the road is wearing a white T-shirt with \"STOP\" printed on it and carrying a red sign that also says \"STOP.\" This creates a visual contradiction because the message \"STOP\" is being displayed both on the clothing and the carried sign while the individual is walking toward the vehicle. The combination of the T-shirt and the sign may confuse the ego vehicle's perception systems, potentially leading to misinterpretation of the pedestrian's intent or presence. Additionally, the pedestrian's movement directly into the path of the ego vehicle without yielding raises concerns about collision risk, especially if the vehicle relies on standard sensor interpretations of pedestrian behavior.\n</classification>",
+      "inference_time_s": 5.283
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_3_green_balloon_wait.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.699
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_4_balloon_maneuver.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.87
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_5_polythene_bags_ignore.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly",
+      "inference_time_s": 2.689
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_6_headlight_glare.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly\n\nThe video shows that the ego-vehicle passes through the white lines marking the lanes, which is not typical behavior for a vehicle on public roads. This action violates standard lane-keeping regulations and could lead to collisions or other traffic violations. Additionally, the presence of fog reduces visibility, making it more critical to stay within lane markings for safety. The vehicle's movement through the centerline suggests a potential failure in lane-keeping autonomy.\n</think>\n\n<answer>\nClassification: Anomaly\n</classification>",
+      "inference_time_s": 4.551
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_7_construction_zone.mp4",
+      "true_label": "Normal",
+      "prediction": "Normal",
+      "correct": true,
+      "raw_output": "Classification: Normal",
+      "inference_time_s": 2.699
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_8_child_detected.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly\n\nThe child in the yellow raincoat suddenly appears on the right side of the road and crosses directly in front of the ego-vehicle without a clear cause, which could confuse or startle the driver. This unexpected movement lacks a visible trigger (e.g., a pedestrian crossing signal) and could pose a risk to both the child and the ego-vehicle. Additionally, the child's path crosses the center line, which might indicate a lack of awareness of traffic rules or a sudden change in direction.",
+      "inference_time_s": 4.577
+    },
+    {
+      "file": "generated_vids/positive_scenarios/opus_4.6_upsampled_prompts/prompt_9_mural_wall_stop.mp4",
+      "true_label": "Normal",
+      "prediction": "Anomaly",
+      "correct": false,
+      "raw_output": "Classification: Anomaly\n\nThe video shows a painted mural on a wall that creates the illusion of a three-lane road with trees lining both sides. This artwork could potentially confuse the ego vehicle's perception systems, especially if the system relies on real-world lane markings and road features. In reality, the painted road lacks physical lanes, curbs, or other standard road elements, which might lead the vehicle to misinterpret its position or surroundings. Additionally, the sudden appearance of the mural as the vehicle approaches it could startle the system, causing momentary hesitation or misalignment. While the vehicle eventually passes through without incident, such visual illusions present risks during autonomous navigation, particularly in areas where reality and art blend seamlessly.\n</answer>",
+      "inference_time_s": 5.335
+    }
+  ]
+}
